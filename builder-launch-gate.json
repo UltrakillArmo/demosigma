@@ -1,0 +1,359 @@
+{
+  "artifactId": "artifact-moiur67p-2-76c6",
+  "workspaceId": "ws-inherited-intent-team",
+  "projectId": "new-venture-1777394424250",
+  "connector": "vercel",
+  "targetEnvironment": "preview",
+  "generatedAt": "2026-04-28T16:40:33.597Z",
+  "status": "attention",
+  "score": 86,
+  "summary": "Launch gate needs operator attention for preview with score 86/100 and 3 warning(s).",
+  "recommendedAction": "Run site-pack readiness and fix failing checks before production launch.",
+  "launchGateFile": "builder-launch-gate.json",
+  "manifestFile": "builder-manifest.json",
+  "manifestHash": "530b55c6c684dec2ae444b086d936a5c22114965882eb8bca41b25afa16a3546",
+  "readinessFile": "builder-readiness.json",
+  "readinessStatus": "attention",
+  "readinessScore": 96,
+  "visualProofFile": "builder-visual-proof.json",
+  "visualProofStatus": "ready",
+  "visualProofScore": 100,
+  "browserProofFile": "builder-browser-proof.json",
+  "browserProofStatus": "attention",
+  "browserProofScore": 64,
+  "browserProofCaptureCount": 4,
+  "providerRequiredFiles": [
+    "vercel.json"
+  ],
+  "providerMissingFiles": [],
+  "blockingIssueCount": 0,
+  "warningIssueCount": 3,
+  "checks": [
+    {
+      "gateId": "manifest",
+      "label": "Export manifest authority",
+      "status": "pass",
+      "detail": "builder-manifest.json is present and parseable.",
+      "action": "Use builder-manifest.json as the launch truth source.",
+      "evidence": [
+        "builder-manifest.json"
+      ]
+    },
+    {
+      "gateId": "core-artifacts",
+      "label": "Core handoff artifacts",
+      "status": "pass",
+      "detail": "Manifest, source snapshot, entrypoints, readiness and visual proof are present.",
+      "action": "Keep all core artifacts in the final archive.",
+      "evidence": [
+        "builder-manifest.json",
+        "builder-readiness.json",
+        "builder-visual-proof.json",
+        "home.html",
+        "index.html",
+        "manifest.json"
+      ]
+    },
+    {
+      "gateId": "live-file-inventory",
+      "label": "Live file inventory drift",
+      "status": "pass",
+      "detail": "16 manifest-listed launch file(s) are present on disk.",
+      "action": "Use live file inventory as drift evidence before handoff.",
+      "evidence": [
+        "builder-browser-proof.json",
+        "builder-evidence-seal.json",
+        "builder-manifest.json",
+        "builder-promotion-decision.json",
+        "builder-visual-proof.json",
+        "contact.html",
+        "contact/index.html",
+        "faq.html",
+        "faq/index.html",
+        "home.html",
+        "index.html",
+        "manifest.json"
+      ]
+    },
+    {
+      "gateId": "readiness-proof",
+      "label": "Static readiness proof",
+      "status": "warn",
+      "detail": "Static site pack needs operator attention with score 96/100.",
+      "action": "Run site-pack readiness and fix failing checks before production launch.",
+      "evidence": [
+        "builder-readiness.json"
+      ]
+    },
+    {
+      "gateId": "visual-proof",
+      "label": "Static visual proof",
+      "status": "pass",
+      "detail": "Static visual proof is ready with score 100/100 across 4 page(s).",
+      "action": "Use visual proof as static UX evidence in the publish handoff.",
+      "evidence": [
+        "builder-visual-proof.json"
+      ]
+    },
+    {
+      "gateId": "browser-proof",
+      "label": "Rendered browser proof",
+      "status": "warn",
+      "detail": "Browser proof needs attention with 4/4 required capture(s), engine static-html-snapshot, and score 64/100.",
+      "action": "Run npm run site-pack:browser-proof -- --pack <site-pack-dir> --viewports desktop:1440x1100,mobile:390x844 before production promotion.",
+      "evidence": [
+        "builder-browser-proof.json"
+      ]
+    },
+    {
+      "gateId": "provider-contract",
+      "label": "Provider publish contract",
+      "status": "pass",
+      "detail": "vercel provider contract is present.",
+      "action": "Keep provider-specific files with the deploy root.",
+      "evidence": [
+        "vercel.json"
+      ]
+    },
+    {
+      "gateId": "canonical-production-url",
+      "label": "Canonical production URL",
+      "status": "warn",
+      "detail": "No canonical base URL is configured for this export.",
+      "action": "Set canonicalBaseUrl or productionDomain before production launch.",
+      "evidence": []
+    },
+    {
+      "gateId": "seo-artifacts",
+      "label": "SEO launch artifacts",
+      "status": "pass",
+      "detail": "robots.txt and sitemap.xml posture is launch-safe.",
+      "action": "Keep robots.txt and sitemap.xml in production archives.",
+      "evidence": [
+        "robots.txt"
+      ]
+    },
+    {
+      "gateId": "page-inventory",
+      "label": "Page inventory",
+      "status": "pass",
+      "detail": "4 page(s) are declared in the manifest.",
+      "action": "Use the manifest page inventory for launch verification.",
+      "evidence": [
+        "home",
+        "pricing",
+        "faq",
+        "contact"
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "gateId": "manifest",
+      "label": "Export manifest authority",
+      "status": "pass",
+      "detail": "builder-manifest.json is present and parseable.",
+      "action": "Use builder-manifest.json as the launch truth source.",
+      "evidence": [
+        "builder-manifest.json"
+      ]
+    },
+    {
+      "gateId": "core-artifacts",
+      "label": "Core handoff artifacts",
+      "status": "pass",
+      "detail": "Manifest, source snapshot, entrypoints, readiness and visual proof are present.",
+      "action": "Keep all core artifacts in the final archive.",
+      "evidence": [
+        "builder-manifest.json",
+        "builder-readiness.json",
+        "builder-visual-proof.json",
+        "home.html",
+        "index.html",
+        "manifest.json"
+      ]
+    },
+    {
+      "gateId": "live-file-inventory",
+      "label": "Live file inventory drift",
+      "status": "pass",
+      "detail": "16 manifest-listed launch file(s) are present on disk.",
+      "action": "Use live file inventory as drift evidence before handoff.",
+      "evidence": [
+        "builder-browser-proof.json",
+        "builder-evidence-seal.json",
+        "builder-manifest.json",
+        "builder-promotion-decision.json",
+        "builder-visual-proof.json",
+        "contact.html",
+        "contact/index.html",
+        "faq.html",
+        "faq/index.html",
+        "home.html",
+        "index.html",
+        "manifest.json"
+      ]
+    },
+    {
+      "gateId": "readiness-proof",
+      "label": "Static readiness proof",
+      "status": "warn",
+      "detail": "Static site pack needs operator attention with score 96/100.",
+      "action": "Run site-pack readiness and fix failing checks before production launch.",
+      "evidence": [
+        "builder-readiness.json"
+      ]
+    },
+    {
+      "gateId": "visual-proof",
+      "label": "Static visual proof",
+      "status": "pass",
+      "detail": "Static visual proof is ready with score 100/100 across 4 page(s).",
+      "action": "Use visual proof as static UX evidence in the publish handoff.",
+      "evidence": [
+        "builder-visual-proof.json"
+      ]
+    },
+    {
+      "gateId": "browser-proof",
+      "label": "Rendered browser proof",
+      "status": "warn",
+      "detail": "Browser proof needs attention with 4/4 required capture(s), engine static-html-snapshot, and score 64/100.",
+      "action": "Run npm run site-pack:browser-proof -- --pack <site-pack-dir> --viewports desktop:1440x1100,mobile:390x844 before production promotion.",
+      "evidence": [
+        "builder-browser-proof.json"
+      ]
+    },
+    {
+      "gateId": "provider-contract",
+      "label": "Provider publish contract",
+      "status": "pass",
+      "detail": "vercel provider contract is present.",
+      "action": "Keep provider-specific files with the deploy root.",
+      "evidence": [
+        "vercel.json"
+      ]
+    },
+    {
+      "gateId": "canonical-production-url",
+      "label": "Canonical production URL",
+      "status": "warn",
+      "detail": "No canonical base URL is configured for this export.",
+      "action": "Set canonicalBaseUrl or productionDomain before production launch.",
+      "evidence": []
+    },
+    {
+      "gateId": "seo-artifacts",
+      "label": "SEO launch artifacts",
+      "status": "pass",
+      "detail": "robots.txt and sitemap.xml posture is launch-safe.",
+      "action": "Keep robots.txt and sitemap.xml in production archives.",
+      "evidence": [
+        "robots.txt"
+      ]
+    },
+    {
+      "gateId": "page-inventory",
+      "label": "Page inventory",
+      "status": "pass",
+      "detail": "4 page(s) are declared in the manifest.",
+      "action": "Use the manifest page inventory for launch verification.",
+      "evidence": [
+        "home",
+        "pricing",
+        "faq",
+        "contact"
+      ]
+    }
+  ],
+  "blockingGateCount": 0,
+  "warningGateCount": 3,
+  "promotion": {
+    "previewPublishAllowed": true,
+    "productionPublishAllowed": false,
+    "targetEnvironment": "preview",
+    "reason": "Run site-pack readiness and fix failing checks before production launch."
+  },
+  "evidenceFiles": [
+    {
+      "path": "builder-browser-proof.json",
+      "sha256": "f855d634a1ed2f4fe9c5f0e5978a612885eaa70d816309ce2b9d9807718a0d69",
+      "bytes": 9056
+    },
+    {
+      "path": "builder-launch-gate.json",
+      "sha256": "acbd8c892596c5c0b9a75cad59dd497213af6345469f4a6a6a981ca0966ad725",
+      "bytes": 294
+    },
+    {
+      "path": "builder-manifest.json",
+      "sha256": "530b55c6c684dec2ae444b086d936a5c22114965882eb8bca41b25afa16a3546",
+      "bytes": 2659
+    },
+    {
+      "path": "builder-readiness.json",
+      "sha256": "5e3c19d0de4d5c5ce9d522c7d732fb32ca9ee5e6cee9c3497e59bd141e27f0c7",
+      "bytes": 8452
+    },
+    {
+      "path": "builder-visual-proof.json",
+      "sha256": "4f953ac581936333d501e1ffb7e6f918827e7425e49be73e57122020bdb29162",
+      "bytes": 5567
+    },
+    {
+      "path": "contact.html",
+      "sha256": "af367e8b201ae32422938124b70d75eecad1aef2588a920b5e99dc939bd2d4ea",
+      "bytes": 1570
+    },
+    {
+      "path": "contact/index.html",
+      "sha256": "af367e8b201ae32422938124b70d75eecad1aef2588a920b5e99dc939bd2d4ea",
+      "bytes": 1570
+    },
+    {
+      "path": "faq.html",
+      "sha256": "c5cb0ab19b294879b5a7f8f231cd8a5e98b8f8d5a33559886ea644ea873d2b33",
+      "bytes": 1576
+    },
+    {
+      "path": "faq/index.html",
+      "sha256": "c5cb0ab19b294879b5a7f8f231cd8a5e98b8f8d5a33559886ea644ea873d2b33",
+      "bytes": 1576
+    },
+    {
+      "path": "home.html",
+      "sha256": "fc9a47577678b0b4287606b52811589b5acf2bfdaaf848d089745122c7675a22",
+      "bytes": 1863
+    },
+    {
+      "path": "index.html",
+      "sha256": "fc9a47577678b0b4287606b52811589b5acf2bfdaaf848d089745122c7675a22",
+      "bytes": 1863
+    },
+    {
+      "path": "manifest.json",
+      "sha256": "739a259e7ab645c0ae66261340a3e52f41022a9271e537fa076e6d8f1eb617bd",
+      "bytes": 3925
+    },
+    {
+      "path": "pricing.html",
+      "sha256": "9ddfdd632af0dbe8bb17836d844e4de79b6319b2a27218148f9786aaee20f30a",
+      "bytes": 1830
+    },
+    {
+      "path": "pricing/index.html",
+      "sha256": "9ddfdd632af0dbe8bb17836d844e4de79b6319b2a27218148f9786aaee20f30a",
+      "bytes": 1830
+    },
+    {
+      "path": "robots.txt",
+      "sha256": "44f3f8eafdf064cf69acb05f23ee4dfc9ab5b3d67d81c64246bc29f7e438789a",
+      "bytes": 22
+    },
+    {
+      "path": "vercel.json",
+      "sha256": "4c5c60f8145d5400df9fdc38158609c3c2eb4577656d41e0df62bca942d688d5",
+      "bytes": 3559
+    }
+  ]
+}

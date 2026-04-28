@@ -1,0 +1,199 @@
+{
+  "artifactId": "artifact-moiur67p-2-76c6",
+  "workspaceId": "ws-inherited-intent-team",
+  "projectId": "new-venture-1777394424250",
+  "connector": "vercel",
+  "generatedAt": "2026-04-28T16:40:33.592Z",
+  "status": "ready",
+  "score": 100,
+  "summary": "Static visual proof is ready with score 100/100 across 4 page(s).",
+  "recommendedAction": "Static visual proof is ready for operator review and publish handoff.",
+  "manifestFile": "builder-manifest.json",
+  "manifestHash": "530b55c6c684dec2ae444b086d936a5c22114965882eb8bca41b25afa16a3546",
+  "visualProofFile": "builder-visual-proof.json",
+  "pageCount": 4,
+  "htmlFileCount": 8,
+  "checkedFileCount": 15,
+  "blockingIssueCount": 0,
+  "warningIssueCount": 0,
+  "pageReports": [
+    {
+      "slug": "home",
+      "title": "Home",
+      "fileName": "home.html",
+      "aliases": [
+        "index.html"
+      ],
+      "routePath": "/",
+      "status": "ready",
+      "score": 100,
+      "htmlBytes": 1863,
+      "sectionCount": 4,
+      "headingCount": 5,
+      "navLinkCount": 4,
+      "internalLinkCount": 4,
+      "unresolvedInternalLinks": [],
+      "missingAltCount": 0,
+      "unlabeledControlCount": 0,
+      "hasViewportMeta": true,
+      "hasDescriptionMeta": true,
+      "hasCanonicalLink": false,
+      "hasBuilderMarkers": true,
+      "hasLocalPathLeak": false,
+      "issues": []
+    },
+    {
+      "slug": "pricing",
+      "title": "Pricing",
+      "fileName": "pricing.html",
+      "aliases": [
+        "pricing/index.html"
+      ],
+      "routePath": "/pricing/",
+      "status": "ready",
+      "score": 100,
+      "htmlBytes": 1830,
+      "sectionCount": 3,
+      "headingCount": 4,
+      "navLinkCount": 4,
+      "internalLinkCount": 4,
+      "unresolvedInternalLinks": [],
+      "missingAltCount": 0,
+      "unlabeledControlCount": 0,
+      "hasViewportMeta": true,
+      "hasDescriptionMeta": true,
+      "hasCanonicalLink": false,
+      "hasBuilderMarkers": true,
+      "hasLocalPathLeak": false,
+      "issues": []
+    },
+    {
+      "slug": "faq",
+      "title": "Faq",
+      "fileName": "faq.html",
+      "aliases": [
+        "faq/index.html"
+      ],
+      "routePath": "/faq/",
+      "status": "ready",
+      "score": 100,
+      "htmlBytes": 1576,
+      "sectionCount": 2,
+      "headingCount": 3,
+      "navLinkCount": 4,
+      "internalLinkCount": 4,
+      "unresolvedInternalLinks": [],
+      "missingAltCount": 0,
+      "unlabeledControlCount": 0,
+      "hasViewportMeta": true,
+      "hasDescriptionMeta": true,
+      "hasCanonicalLink": false,
+      "hasBuilderMarkers": true,
+      "hasLocalPathLeak": false,
+      "issues": []
+    },
+    {
+      "slug": "contact",
+      "title": "Contact",
+      "fileName": "contact.html",
+      "aliases": [
+        "contact/index.html"
+      ],
+      "routePath": "/contact/",
+      "status": "ready",
+      "score": 100,
+      "htmlBytes": 1570,
+      "sectionCount": 2,
+      "headingCount": 3,
+      "navLinkCount": 4,
+      "internalLinkCount": 4,
+      "unresolvedInternalLinks": [],
+      "missingAltCount": 0,
+      "unlabeledControlCount": 0,
+      "hasViewportMeta": true,
+      "hasDescriptionMeta": true,
+      "hasCanonicalLink": false,
+      "hasBuilderMarkers": true,
+      "hasLocalPathLeak": false,
+      "issues": []
+    }
+  ],
+  "issues": [],
+  "fileHashes": [
+    {
+      "path": "builder-evidence-seal.json",
+      "sha256": "53fdbbf9f66d8901d6dc80551c1308d73868dd4392fdaa6d25f61f6638f75604",
+      "bytes": 273
+    },
+    {
+      "path": "builder-launch-gate.json",
+      "sha256": "acbd8c892596c5c0b9a75cad59dd497213af6345469f4a6a6a981ca0966ad725",
+      "bytes": 294
+    },
+    {
+      "path": "builder-manifest.json",
+      "sha256": "530b55c6c684dec2ae444b086d936a5c22114965882eb8bca41b25afa16a3546",
+      "bytes": 2659
+    },
+    {
+      "path": "builder-promotion-decision.json",
+      "sha256": "fd279f64ea13e4aba076dfd3e5eb357725d2bf242681e9c4c2e82721d1b0a9df",
+      "bytes": 287
+    },
+    {
+      "path": "contact.html",
+      "sha256": "af367e8b201ae32422938124b70d75eecad1aef2588a920b5e99dc939bd2d4ea",
+      "bytes": 1570
+    },
+    {
+      "path": "contact/index.html",
+      "sha256": "af367e8b201ae32422938124b70d75eecad1aef2588a920b5e99dc939bd2d4ea",
+      "bytes": 1570
+    },
+    {
+      "path": "faq.html",
+      "sha256": "c5cb0ab19b294879b5a7f8f231cd8a5e98b8f8d5a33559886ea644ea873d2b33",
+      "bytes": 1576
+    },
+    {
+      "path": "faq/index.html",
+      "sha256": "c5cb0ab19b294879b5a7f8f231cd8a5e98b8f8d5a33559886ea644ea873d2b33",
+      "bytes": 1576
+    },
+    {
+      "path": "home.html",
+      "sha256": "fc9a47577678b0b4287606b52811589b5acf2bfdaaf848d089745122c7675a22",
+      "bytes": 1863
+    },
+    {
+      "path": "index.html",
+      "sha256": "fc9a47577678b0b4287606b52811589b5acf2bfdaaf848d089745122c7675a22",
+      "bytes": 1863
+    },
+    {
+      "path": "manifest.json",
+      "sha256": "739a259e7ab645c0ae66261340a3e52f41022a9271e537fa076e6d8f1eb617bd",
+      "bytes": 3925
+    },
+    {
+      "path": "pricing.html",
+      "sha256": "9ddfdd632af0dbe8bb17836d844e4de79b6319b2a27218148f9786aaee20f30a",
+      "bytes": 1830
+    },
+    {
+      "path": "pricing/index.html",
+      "sha256": "9ddfdd632af0dbe8bb17836d844e4de79b6319b2a27218148f9786aaee20f30a",
+      "bytes": 1830
+    },
+    {
+      "path": "robots.txt",
+      "sha256": "44f3f8eafdf064cf69acb05f23ee4dfc9ab5b3d67d81c64246bc29f7e438789a",
+      "bytes": 22
+    },
+    {
+      "path": "vercel.json",
+      "sha256": "4c5c60f8145d5400df9fdc38158609c3c2eb4577656d41e0df62bca942d688d5",
+      "bytes": 3559
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "artifactId": "artifact-moiur67p-2-76c6",
+  "workspaceId": "ws-inherited-intent-team",
+  "projectId": "new-venture-1777394424250",
+  "projectName": "New Venture Website",
+  "connector": "vercel",
+  "generatedAt": "2026-04-28T16:40:33.589Z",
+  "entryFile": "home.html",
+  "entryHash": "1ca2e037b3267685fbbfdac606d09b710af1e63a8be9fe395aff5d57c314784f",
+  "projectHash": "2329406e787a1284ad43134c322662a25837576a7250d8cdd4fdcaa2f571797a",
+  "markerName": "builder-artifact-id",
+  "targetEnvironment": "preview",
+  "readinessFile": "builder-readiness.json",
+  "visualProofFile": "builder-visual-proof.json",
+  "browserProofFile": "builder-browser-proof.json",
+  "launchGateFile": "builder-launch-gate.json",
+  "evidenceSealFile": "builder-evidence-seal.json",
+  "promotionDecisionFile": "builder-promotion-decision.json",
+  "slugMap": [
+    {
+      "sourceSlug": "home",
+      "exportSlug": "home"
+    },
+    {
+      "sourceSlug": "pricing",
+      "exportSlug": "pricing"
+    },
+    {
+      "sourceSlug": "faq",
+      "exportSlug": "faq"
+    },
+    {
+      "sourceSlug": "contact",
+      "exportSlug": "contact"
+    }
+  ],
+  "configFiles": [
+    "vercel.json"
+  ],
+  "exportedFiles": [
+    "home.html",
+    "index.html",
+    "pricing.html",
+    "pricing/index.html",
+    "faq.html",
+    "faq/index.html",
+    "contact.html",
+    "contact/index.html",
+    "builder-manifest.json",
+    "manifest.json",
+    "builder-visual-proof.json",
+    "builder-browser-proof.json",
+    "builder-launch-gate.json",
+    "builder-evidence-seal.json",
+    "builder-promotion-decision.json",
+    "robots.txt",
+    "vercel.json"
+  ],
+  "pages": [
+    {
+      "slug": "home",
+      "fileName": "home.html",
+      "routePath": "/",
+      "aliases": [
+        "index.html"
+      ],
+      "title": "Home",
+      "hash": "1ca2e037b3267685fbbfdac606d09b710af1e63a8be9fe395aff5d57c314784f"
+    },
+    {
+      "slug": "pricing",
+      "fileName": "pricing.html",
+      "routePath": "/pricing/",
+      "aliases": [
+        "pricing/index.html"
+      ],
+      "title": "Pricing",
+      "hash": "356907c7fc7c167265fb8ccfae4ba79fa2c7a15a3283830a2b77ec36da3b4f94"
+    },
+    {
+      "slug": "faq",
+      "fileName": "faq.html",
+      "routePath": "/faq/",
+      "aliases": [
+        "faq/index.html"
+      ],
+      "title": "Faq",
+      "hash": "a299446813feef1222e26cb21b8311bcb41d9c9b1be8f7f99c7726662cee194a"
+    },
+    {
+      "slug": "contact",
+      "fileName": "contact.html",
+      "routePath": "/contact/",
+      "aliases": [
+        "contact/index.html"
+      ],
+      "title": "Contact",
+      "hash": "6fe79fedb72b31c7dad28b1f8510168d36da8674b6d0d0a30b83d12c4e512154"
+    }
+  ]
+}

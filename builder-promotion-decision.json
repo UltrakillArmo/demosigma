@@ -1,0 +1,133 @@
+{
+  "artifactId": "artifact-moiur67p-2-76c6",
+  "workspaceId": "ws-inherited-intent-team",
+  "projectId": "new-venture-1777394424250",
+  "connector": "vercel",
+  "targetEnvironment": "preview",
+  "generatedAt": "2026-04-28T16:40:33.602Z",
+  "status": "attention",
+  "score": 78,
+  "promotionMode": "manual-only",
+  "autoPublishAllowed": false,
+  "manualPublishAllowed": true,
+  "productionPublishAllowed": false,
+  "summary": "Promotion decision requires operator attention for preview in manual-only mode with score 78/100 and 4 warning(s).",
+  "recommendedAction": "Run site-pack:readiness and fix blocking checks before promotion.",
+  "promotionDecisionFile": "builder-promotion-decision.json",
+  "manifestFile": "builder-manifest.json",
+  "manifestHash": "530b55c6c684dec2ae444b086d936a5c22114965882eb8bca41b25afa16a3546",
+  "readinessFile": "builder-readiness.json",
+  "readinessStatus": "attention",
+  "readinessScore": 96,
+  "visualProofFile": "builder-visual-proof.json",
+  "visualProofStatus": "ready",
+  "visualProofScore": 100,
+  "browserProofFile": "builder-browser-proof.json",
+  "browserProofStatus": "attention",
+  "browserProofScore": 64,
+  "browserProofCaptureCount": 4,
+  "launchGateFile": "builder-launch-gate.json",
+  "launchGateStatus": "attention",
+  "launchGateScore": 86,
+  "evidenceSealFile": "builder-evidence-seal.json",
+  "evidenceSealStatus": "ready",
+  "evidenceSealScore": 100,
+  "evidenceSealRootHash": "468b75fbbc17650f34756f06839f93c42e53cccab92fd5f8c10ce6baf69ead67",
+  "evidenceSealVerificationStatus": "verified",
+  "approvalRequired": false,
+  "approved": false,
+  "requiredApprovals": [],
+  "blockingIssueCount": 0,
+  "warningIssueCount": 4,
+  "checks": [
+    {
+      "checkId": "manifest-authority",
+      "label": "Manifest authority",
+      "status": "pass",
+      "detail": "builder-manifest.json is present and parseable.",
+      "action": "Use builder-manifest.json as the cross-surface truth source.",
+      "evidence": [
+        "builder-manifest.json"
+      ]
+    },
+    {
+      "checkId": "static-readiness",
+      "label": "Static readiness",
+      "status": "warn",
+      "detail": "Static site pack needs operator attention with score 96/100.",
+      "action": "Run site-pack:readiness and fix blocking checks before promotion.",
+      "evidence": [
+        "builder-readiness.json"
+      ]
+    },
+    {
+      "checkId": "static-visual-proof",
+      "label": "Static visual proof",
+      "status": "pass",
+      "detail": "Static visual proof is ready with score 100/100 across 4 page(s).",
+      "action": "Keep visual proof with the package.",
+      "evidence": [
+        "builder-visual-proof.json"
+      ]
+    },
+    {
+      "checkId": "browser-render-proof",
+      "label": "Browser render proof",
+      "status": "warn",
+      "detail": "Browser proof needs attention with 4/4 required capture(s), engine static-html-snapshot, and score 64/100.",
+      "action": "Run site-pack:browser-proof with desktop and mobile viewports before production promotion.",
+      "evidence": [
+        "builder-browser-proof.json",
+        "2bcddb28360d975621a44a3e88755f3fccedd72b6a7b9efb94d442662c9df60e"
+      ]
+    },
+    {
+      "checkId": "launch-gate",
+      "label": "Launch gate",
+      "status": "warn",
+      "detail": "Launch gate needs operator attention for preview with score 86/100 and 3 warning(s).",
+      "action": "Run site-pack:launch-gate and resolve failing gates before promotion.",
+      "evidence": [
+        "builder-launch-gate.json"
+      ]
+    },
+    {
+      "checkId": "evidence-seal",
+      "label": "Evidence seal",
+      "status": "pass",
+      "detail": "Evidence seal is verified with 20 file fingerprint(s) and score 100/100.",
+      "action": "Keep the evidence seal root hash with the handoff.",
+      "evidence": [
+        "builder-evidence-seal.json",
+        "468b75fbbc17650f34756f06839f93c42e53cccab92fd5f8c10ce6baf69ead67"
+      ]
+    },
+    {
+      "checkId": "provider-production-safety",
+      "label": "Provider production safety",
+      "status": "pass",
+      "detail": "vercel connector is acceptable for preview.",
+      "action": "Keep provider connector aligned with the publish target.",
+      "evidence": [
+        "vercel"
+      ]
+    },
+    {
+      "checkId": "canonical-production-url",
+      "label": "Canonical production URL",
+      "status": "warn",
+      "detail": "No canonical base URL is configured.",
+      "action": "Set canonicalBaseUrl before production promotion.",
+      "evidence": []
+    },
+    {
+      "checkId": "operator-production-signoff",
+      "label": "Operator production signoff",
+      "status": "pass",
+      "detail": "Preview promotion does not require production signoff.",
+      "action": "Carry signoff metadata into the publish package.",
+      "evidence": []
+    }
+  ],
+  "auditHash": "13409f98ffb818ae43cd5a6f29ae664847fffb9fcaf1721178c1fb803c678cee"
+}

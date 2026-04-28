@@ -1,0 +1,196 @@
+{
+  "artifactId": "artifact-moiur67p-2-76c6",
+  "workspaceId": "ws-inherited-intent-team",
+  "projectId": "new-venture-1777394424250",
+  "connector": "vercel",
+  "targetEnvironment": "preview",
+  "generatedAt": "2026-04-28T16:40:33.599Z",
+  "status": "ready",
+  "score": 100,
+  "summary": "Evidence seal is verified with 20 file fingerprint(s) and score 100/100.",
+  "recommendedAction": "Keep builder-evidence-seal.json with the publish package and verify it before promotion.",
+  "evidenceSealFile": "builder-evidence-seal.json",
+  "manifestFile": "builder-manifest.json",
+  "manifestHash": "530b55c6c684dec2ae444b086d936a5c22114965882eb8bca41b25afa16a3546",
+  "sealVerificationStatus": "verified",
+  "previousRootHash": "468b75fbbc17650f34756f06839f93c42e53cccab92fd5f8c10ce6baf69ead67",
+  "rootHash": "468b75fbbc17650f34756f06839f93c42e53cccab92fd5f8c10ce6baf69ead67",
+  "fileCount": 20,
+  "requiredFileCount": 21,
+  "missingFiles": [],
+  "unsafeFiles": [],
+  "files": [
+    {
+      "path": "browser-proof/contact-desktop.svg",
+      "category": "browser-capture",
+      "required": true,
+      "exists": true,
+      "bytes": 617,
+      "sha256": "c061753638fb46e409c2e1bdc32743609f4831b156224a1790ffaaa0d1f48a40"
+    },
+    {
+      "path": "browser-proof/faq-desktop.svg",
+      "category": "browser-capture",
+      "required": true,
+      "exists": true,
+      "bytes": 613,
+      "sha256": "8059409d8843e7dea05e52dfd8f5c546f880234bd25453f36b4000f55c93be5c"
+    },
+    {
+      "path": "browser-proof/home-desktop.svg",
+      "category": "browser-capture",
+      "required": true,
+      "exists": true,
+      "bytes": 614,
+      "sha256": "031eec1d954a9edd0092f30baf72928ae15b4df55749fcc9114994ee0e8bdbab"
+    },
+    {
+      "path": "browser-proof/pricing-desktop.svg",
+      "category": "browser-capture",
+      "required": true,
+      "exists": true,
+      "bytes": 617,
+      "sha256": "bd9786a02e3802f7919ef7a81017b19e49ea7a53a94603763ebc8c2a3acdbec2"
+    },
+    {
+      "path": "builder-browser-proof.json",
+      "category": "evidence",
+      "required": true,
+      "exists": true,
+      "bytes": 9056,
+      "sha256": "f855d634a1ed2f4fe9c5f0e5978a612885eaa70d816309ce2b9d9807718a0d69"
+    },
+    {
+      "path": "builder-evidence-seal.json",
+      "category": "evidence",
+      "required": true,
+      "exists": true,
+      "bytes": 6196,
+      "sha256": "2d89fb6b27b7c84d769e8f2fbf3def052809ab3dc609f97ed57ee60351f2b038"
+    },
+    {
+      "path": "builder-launch-gate.json",
+      "category": "evidence",
+      "required": true,
+      "exists": true,
+      "bytes": 11524,
+      "sha256": "13958399dffc34e66844b612f4479d863b2bf2cbde08e4711e1f1d8040303d79"
+    },
+    {
+      "path": "builder-manifest.json",
+      "category": "manifest",
+      "required": true,
+      "exists": true,
+      "bytes": 2659,
+      "sha256": "530b55c6c684dec2ae444b086d936a5c22114965882eb8bca41b25afa16a3546"
+    },
+    {
+      "path": "builder-readiness.json",
+      "category": "evidence",
+      "required": true,
+      "exists": true,
+      "bytes": 8452,
+      "sha256": "5e3c19d0de4d5c5ce9d522c7d732fb32ca9ee5e6cee9c3497e59bd141e27f0c7"
+    },
+    {
+      "path": "builder-visual-proof.json",
+      "category": "evidence",
+      "required": true,
+      "exists": true,
+      "bytes": 5567,
+      "sha256": "4f953ac581936333d501e1ffb7e6f918827e7425e49be73e57122020bdb29162"
+    },
+    {
+      "path": "contact.html",
+      "category": "page",
+      "required": true,
+      "exists": true,
+      "bytes": 1570,
+      "sha256": "af367e8b201ae32422938124b70d75eecad1aef2588a920b5e99dc939bd2d4ea"
+    },
+    {
+      "path": "contact/index.html",
+      "category": "route-alias",
+      "required": true,
+      "exists": true,
+      "bytes": 1570,
+      "sha256": "af367e8b201ae32422938124b70d75eecad1aef2588a920b5e99dc939bd2d4ea"
+    },
+    {
+      "path": "faq.html",
+      "category": "page",
+      "required": true,
+      "exists": true,
+      "bytes": 1576,
+      "sha256": "c5cb0ab19b294879b5a7f8f231cd8a5e98b8f8d5a33559886ea644ea873d2b33"
+    },
+    {
+      "path": "faq/index.html",
+      "category": "route-alias",
+      "required": true,
+      "exists": true,
+      "bytes": 1576,
+      "sha256": "c5cb0ab19b294879b5a7f8f231cd8a5e98b8f8d5a33559886ea644ea873d2b33"
+    },
+    {
+      "path": "home.html",
+      "category": "page",
+      "required": true,
+      "exists": true,
+      "bytes": 1863,
+      "sha256": "fc9a47577678b0b4287606b52811589b5acf2bfdaaf848d089745122c7675a22"
+    },
+    {
+      "path": "index.html",
+      "category": "route-alias",
+      "required": true,
+      "exists": true,
+      "bytes": 1863,
+      "sha256": "fc9a47577678b0b4287606b52811589b5acf2bfdaaf848d089745122c7675a22"
+    },
+    {
+      "path": "manifest.json",
+      "category": "project-data",
+      "required": true,
+      "exists": true,
+      "bytes": 3925,
+      "sha256": "739a259e7ab645c0ae66261340a3e52f41022a9271e537fa076e6d8f1eb617bd"
+    },
+    {
+      "path": "pricing.html",
+      "category": "page",
+      "required": true,
+      "exists": true,
+      "bytes": 1830,
+      "sha256": "9ddfdd632af0dbe8bb17836d844e4de79b6319b2a27218148f9786aaee20f30a"
+    },
+    {
+      "path": "pricing/index.html",
+      "category": "route-alias",
+      "required": true,
+      "exists": true,
+      "bytes": 1830,
+      "sha256": "9ddfdd632af0dbe8bb17836d844e4de79b6319b2a27218148f9786aaee20f30a"
+    },
+    {
+      "path": "robots.txt",
+      "category": "seo",
+      "required": true,
+      "exists": true,
+      "bytes": 22,
+      "sha256": "44f3f8eafdf064cf69acb05f23ee4dfc9ab5b3d67d81c64246bc29f7e438789a"
+    },
+    {
+      "path": "vercel.json",
+      "category": "provider-config",
+      "required": true,
+      "exists": true,
+      "bytes": 3559,
+      "sha256": "4c5c60f8145d5400df9fdc38158609c3c2eb4577656d41e0df62bca942d688d5"
+    }
+  ],
+  "issues": [],
+  "blockingIssueCount": 0,
+  "warningIssueCount": 0,
+  "auditHash": "d8f9ae0f19657be1e9c5089fcec7c94a0be6c0fb000238c4394e9ac96561fee0"
+}
