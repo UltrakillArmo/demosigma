@@ -1,15 +1,15 @@
 {
-  "projectId": "new-venture-1777394424250",
-  "name": "New Venture Website",
-  "createdAt": "2026-04-28T16:40:24.250Z",
-  "updatedAt": "2026-04-28T16:40:24.250Z",
+  "projectId": "new-venture-1777404774421",
+  "name": "APF Themed Demo",
+  "createdAt": "2026-04-28T19:32:54.421Z",
+  "updatedAt": "2026-04-28T19:32:54.421Z",
   "brief": {
-    "rawIdea": "Build an inherited-governance release cockpit with proof, pricing, FAQ and enterprise CTA.",
+    "rawIdea": "Premium AI productivity SaaS for technical founders. Pages: home, pricing, faq, contact. Tone: technical.",
     "companyName": "New Venture",
-    "industry": "Digital Product",
-    "audience": "Enterprise buyers",
+    "industry": "B2B SaaS",
+    "audience": "Growth-stage buyers",
     "primaryGoal": "Drive demo requests",
-    "tone": "modern",
+    "tone": "premium",
     "cta": "Book a demo",
     "pages": [
       "home",
@@ -18,21 +18,19 @@
       "contact"
     ],
     "features": [
-      "fast setup",
-      "conversion-first pages",
-      "clear onboarding"
+      "ai assistance"
     ]
   },
   "appearance": {
-    "presetId": "aurora",
-    "motionPreset": "dynamic",
+    "presetId": "midnight",
+    "motionPreset": "premium",
     "density": "balanced",
-    "surfaceStyle": "soft",
+    "surfaceStyle": "glass",
     "heroPattern": "gradient",
     "radius": 22,
     "typographyPreset": "studio",
     "spacingScale": "normal",
-    "shadowStyle": "subtle",
+    "shadowStyle": "elevated",
     "contentWidth": "standard"
   },
   "pages": [
@@ -44,14 +42,14 @@
         {
           "id": "hero-1",
           "kind": "hero",
-          "title": "New Venture for Enterprise buyers",
-          "body": "Digital Product website focused on drive demo requests with a modern tone."
+          "title": "New Venture for Growth-stage buyers",
+          "body": "B2B SaaS website focused on drive demo requests with a premium tone."
         },
         {
           "id": "features-1",
           "kind": "features",
           "title": "Core capabilities",
-          "body": "fast setup • conversion-first pages • clear onboarding"
+          "body": "ai assistance"
         },
         {
           "id": "proof-1",
@@ -76,7 +74,7 @@
           "id": "pricing-1",
           "kind": "pricing",
           "title": "Simple pricing for serious buyers",
-          "body": "Three clear plans for enterprise buyers with setup around fast setup • conversion-first pages • clear onboarding."
+          "body": "Three clear plans for growth-stage buyers with setup around ai assistance."
         },
         {
           "id": "pricing-proof-1",
@@ -101,7 +99,7 @@
           "id": "faq-1",
           "kind": "faq",
           "title": "Frequently asked questions",
-          "body": "Answers for enterprise buyers about rollout speed, fit and support."
+          "body": "Answers for growth-stage buyers about rollout speed, fit and support."
         },
         {
           "id": "faq-cta-1",
@@ -120,7 +118,7 @@
           "id": "contact-1",
           "kind": "content",
           "title": "Talk to the team",
-          "body": "Open a direct path for enterprise buyers to move toward drive demo requests."
+          "body": "Open a direct path for growth-stage buyers to move toward drive demo requests."
         },
         {
           "id": "contact-cta-1",
@@ -134,5 +132,5 @@
   "activity": [
     "project created from idea"
   ],
-  "workspaceId": "ws-inherited-intent-team"
+  "workspaceId": "ws-nova"
 }

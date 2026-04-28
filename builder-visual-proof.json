@@ -1,15 +1,15 @@
 {
-  "artifactId": "artifact-moiur67p-2-76c6",
-  "workspaceId": "ws-inherited-intent-team",
-  "projectId": "new-venture-1777394424250",
+  "artifactId": "artifact-moj0xprb-0-ca1b",
+  "workspaceId": "ws-nova",
+  "projectId": "new-venture-1777404774421",
   "connector": "vercel",
-  "generatedAt": "2026-04-28T16:40:33.592Z",
+  "generatedAt": "2026-04-28T19:33:36.554Z",
   "status": "ready",
   "score": 100,
   "summary": "Static visual proof is ready with score 100/100 across 4 page(s).",
   "recommendedAction": "Static visual proof is ready for operator review and publish handoff.",
   "manifestFile": "builder-manifest.json",
-  "manifestHash": "530b55c6c684dec2ae444b086d936a5c22114965882eb8bca41b25afa16a3546",
+  "manifestHash": "0ba9347cbce051f6eebf8eb6dfdf846dd16231a5e62be6b6cdd0fd268a97db8c",
   "visualProofFile": "builder-visual-proof.json",
   "pageCount": 4,
   "htmlFileCount": 8,
@@ -27,10 +27,10 @@
       "routePath": "/",
       "status": "ready",
       "score": 100,
-      "htmlBytes": 1863,
-      "sectionCount": 4,
+      "htmlBytes": 4987,
+      "sectionCount": 5,
       "headingCount": 5,
-      "navLinkCount": 4,
+      "navLinkCount": 5,
       "internalLinkCount": 4,
       "unresolvedInternalLinks": [],
       "missingAltCount": 0,
@@ -52,10 +52,10 @@
       "routePath": "/pricing/",
       "status": "ready",
       "score": 100,
-      "htmlBytes": 1830,
-      "sectionCount": 3,
+      "htmlBytes": 4900,
+      "sectionCount": 4,
       "headingCount": 4,
-      "navLinkCount": 4,
+      "navLinkCount": 5,
       "internalLinkCount": 4,
       "unresolvedInternalLinks": [],
       "missingAltCount": 0,
@@ -77,10 +77,10 @@
       "routePath": "/faq/",
       "status": "ready",
       "score": 100,
-      "htmlBytes": 1576,
-      "sectionCount": 2,
+      "htmlBytes": 4605,
+      "sectionCount": 3,
       "headingCount": 3,
-      "navLinkCount": 4,
+      "navLinkCount": 5,
       "internalLinkCount": 4,
       "unresolvedInternalLinks": [],
       "missingAltCount": 0,
@@ -102,10 +102,10 @@
       "routePath": "/contact/",
       "status": "ready",
       "score": 100,
-      "htmlBytes": 1570,
-      "sectionCount": 2,
+      "htmlBytes": 4611,
+      "sectionCount": 3,
       "headingCount": 3,
-      "navLinkCount": 4,
+      "navLinkCount": 5,
       "internalLinkCount": 4,
       "unresolvedInternalLinks": [],
       "missingAltCount": 0,
@@ -122,68 +122,68 @@
   "fileHashes": [
     {
       "path": "builder-evidence-seal.json",
-      "sha256": "53fdbbf9f66d8901d6dc80551c1308d73868dd4392fdaa6d25f61f6638f75604",
+      "sha256": "d9d8e75f52825f2a071b8bde284146472d9f52fc99a077a6bb6460bc4eedb04f",
       "bytes": 273
     },
     {
       "path": "builder-launch-gate.json",
-      "sha256": "acbd8c892596c5c0b9a75cad59dd497213af6345469f4a6a6a981ca0966ad725",
+      "sha256": "7b449834c13eb9a067da905e822dccf1c7db6d5383b7f1a1abf85d3c604e3a6f",
       "bytes": 294
     },
     {
       "path": "builder-manifest.json",
-      "sha256": "530b55c6c684dec2ae444b086d936a5c22114965882eb8bca41b25afa16a3546",
-      "bytes": 2659
+      "sha256": "0ba9347cbce051f6eebf8eb6dfdf846dd16231a5e62be6b6cdd0fd268a97db8c",
+      "bytes": 2638
     },
     {
       "path": "builder-promotion-decision.json",
-      "sha256": "fd279f64ea13e4aba076dfd3e5eb357725d2bf242681e9c4c2e82721d1b0a9df",
+      "sha256": "3d04d118b7d9349db0ba64ade8924bc581ef7a3a65cc78ffc74751d962b83b45",
       "bytes": 287
     },
     {
       "path": "contact.html",
-      "sha256": "af367e8b201ae32422938124b70d75eecad1aef2588a920b5e99dc939bd2d4ea",
-      "bytes": 1570
+      "sha256": "6d4a7ec34f7ed2fec6b94494259aecea97a030c98b01b9de669c71af8560438d",
+      "bytes": 4611
     },
     {
       "path": "contact/index.html",
-      "sha256": "af367e8b201ae32422938124b70d75eecad1aef2588a920b5e99dc939bd2d4ea",
-      "bytes": 1570
+      "sha256": "6d4a7ec34f7ed2fec6b94494259aecea97a030c98b01b9de669c71af8560438d",
+      "bytes": 4611
     },
     {
       "path": "faq.html",
-      "sha256": "c5cb0ab19b294879b5a7f8f231cd8a5e98b8f8d5a33559886ea644ea873d2b33",
-      "bytes": 1576
+      "sha256": "14b092f1fef3522bcf670d5baf0e0975c223b5be687c4bbd5a4b679f3d7d6076",
+      "bytes": 4605
     },
     {
       "path": "faq/index.html",
-      "sha256": "c5cb0ab19b294879b5a7f8f231cd8a5e98b8f8d5a33559886ea644ea873d2b33",
-      "bytes": 1576
+      "sha256": "14b092f1fef3522bcf670d5baf0e0975c223b5be687c4bbd5a4b679f3d7d6076",
+      "bytes": 4605
     },
     {
       "path": "home.html",
-      "sha256": "fc9a47577678b0b4287606b52811589b5acf2bfdaaf848d089745122c7675a22",
-      "bytes": 1863
+      "sha256": "c974b0dd08edb49fd18b3dd5e773b6de8a44aac60de6bb1186ae8c350be4e04a",
+      "bytes": 4987
     },
     {
       "path": "index.html",
-      "sha256": "fc9a47577678b0b4287606b52811589b5acf2bfdaaf848d089745122c7675a22",
-      "bytes": 1863
+      "sha256": "c974b0dd08edb49fd18b3dd5e773b6de8a44aac60de6bb1186ae8c350be4e04a",
+      "bytes": 4987
     },
     {
       "path": "manifest.json",
-      "sha256": "739a259e7ab645c0ae66261340a3e52f41022a9271e537fa076e6d8f1eb617bd",
-      "bytes": 3925
+      "sha256": "fae4da64550455c10ca442f99c0ade7eb9156b27f259346bccbb971369423231",
+      "bytes": 3777
     },
     {
       "path": "pricing.html",
-      "sha256": "9ddfdd632af0dbe8bb17836d844e4de79b6319b2a27218148f9786aaee20f30a",
-      "bytes": 1830
+      "sha256": "2b91ef02716013c2aff2614f65f723aa1a4ae435031a067f4f63854deed828e2",
+      "bytes": 4900
     },
     {
       "path": "pricing/index.html",
-      "sha256": "9ddfdd632af0dbe8bb17836d844e4de79b6319b2a27218148f9786aaee20f30a",
-      "bytes": 1830
+      "sha256": "2b91ef02716013c2aff2614f65f723aa1a4ae435031a067f4f63854deed828e2",
+      "bytes": 4900
     },
     {
       "path": "robots.txt",

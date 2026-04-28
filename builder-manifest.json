@@ -1,13 +1,13 @@
 {
-  "artifactId": "artifact-moiur67p-2-76c6",
-  "workspaceId": "ws-inherited-intent-team",
-  "projectId": "new-venture-1777394424250",
-  "projectName": "New Venture Website",
+  "artifactId": "artifact-moj0xprb-0-ca1b",
+  "workspaceId": "ws-nova",
+  "projectId": "new-venture-1777404774421",
+  "projectName": "APF Themed Demo",
   "connector": "vercel",
-  "generatedAt": "2026-04-28T16:40:33.589Z",
+  "generatedAt": "2026-04-28T19:33:36.551Z",
   "entryFile": "home.html",
-  "entryHash": "1ca2e037b3267685fbbfdac606d09b710af1e63a8be9fe395aff5d57c314784f",
-  "projectHash": "2329406e787a1284ad43134c322662a25837576a7250d8cdd4fdcaa2f571797a",
+  "entryHash": "7ac531fd4e665f506691b011247bdbacf420b41f2492458fd4e2caff85802ef1",
+  "projectHash": "7adc07889f865d2fd316bc65759f214bec93cc1a21ffc5de1a161bdef5ce149b",
   "markerName": "builder-artifact-id",
   "targetEnvironment": "preview",
   "readinessFile": "builder-readiness.json",
@@ -65,7 +65,7 @@
         "index.html"
       ],
       "title": "Home",
-      "hash": "1ca2e037b3267685fbbfdac606d09b710af1e63a8be9fe395aff5d57c314784f"
+      "hash": "7ac531fd4e665f506691b011247bdbacf420b41f2492458fd4e2caff85802ef1"
     },
     {
       "slug": "pricing",
@@ -75,7 +75,7 @@
         "pricing/index.html"
       ],
       "title": "Pricing",
-      "hash": "356907c7fc7c167265fb8ccfae4ba79fa2c7a15a3283830a2b77ec36da3b4f94"
+      "hash": "4ec2b2dca455cce220ab93c2309a326bd0e99b37be7fa3f7cc6ec6bc8743d0b5"
     },
     {
       "slug": "faq",
@@ -85,7 +85,7 @@
         "faq/index.html"
       ],
       "title": "Faq",
-      "hash": "a299446813feef1222e26cb21b8311bcb41d9c9b1be8f7f99c7726662cee194a"
+      "hash": "17179e20b3c105a0adc7d0f0055b0c33153b7827a65c4977d9661c86ccd4613e"
     },
     {
       "slug": "contact",
@@ -95,7 +95,7 @@
         "contact/index.html"
       ],
       "title": "Contact",
-      "hash": "6fe79fedb72b31c7dad28b1f8510168d36da8674b6d0d0a30b83d12c4e512154"
+      "hash": "ee03d20b285057c8e1dd46efafa6a4fe783f361bc5ad3b8ea61ee4241b179c27"
     }
   ]
 }

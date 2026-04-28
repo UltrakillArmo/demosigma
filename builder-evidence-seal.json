@@ -1,20 +1,20 @@
 {
-  "artifactId": "artifact-moiur67p-2-76c6",
-  "workspaceId": "ws-inherited-intent-team",
-  "projectId": "new-venture-1777394424250",
+  "artifactId": "artifact-moj0xprb-0-ca1b",
+  "workspaceId": "ws-nova",
+  "projectId": "new-venture-1777404774421",
   "connector": "vercel",
   "targetEnvironment": "preview",
-  "generatedAt": "2026-04-28T16:40:33.599Z",
+  "generatedAt": "2026-04-28T19:33:36.564Z",
   "status": "ready",
   "score": 100,
   "summary": "Evidence seal is verified with 20 file fingerprint(s) and score 100/100.",
   "recommendedAction": "Keep builder-evidence-seal.json with the publish package and verify it before promotion.",
   "evidenceSealFile": "builder-evidence-seal.json",
   "manifestFile": "builder-manifest.json",
-  "manifestHash": "530b55c6c684dec2ae444b086d936a5c22114965882eb8bca41b25afa16a3546",
+  "manifestHash": "0ba9347cbce051f6eebf8eb6dfdf846dd16231a5e62be6b6cdd0fd268a97db8c",
   "sealVerificationStatus": "verified",
-  "previousRootHash": "468b75fbbc17650f34756f06839f93c42e53cccab92fd5f8c10ce6baf69ead67",
-  "rootHash": "468b75fbbc17650f34756f06839f93c42e53cccab92fd5f8c10ce6baf69ead67",
+  "previousRootHash": "d39082dded1a0198fc11d0e630a8287a881373b628d515f41446d60e7feef00f",
+  "rootHash": "d39082dded1a0198fc11d0e630a8287a881373b628d515f41446d60e7feef00f",
   "fileCount": 20,
   "requiredFileCount": 21,
   "missingFiles": [],
@@ -25,152 +25,152 @@
       "category": "browser-capture",
       "required": true,
       "exists": true,
-      "bytes": 617,
-      "sha256": "c061753638fb46e409c2e1bdc32743609f4831b156224a1790ffaaa0d1f48a40"
+      "bytes": 613,
+      "sha256": "6deccc8b64a0e1a1ccdcbb979d8d7786a18c1c891fbf72361446707d6bc0c125"
     },
     {
       "path": "browser-proof/faq-desktop.svg",
       "category": "browser-capture",
       "required": true,
       "exists": true,
-      "bytes": 613,
-      "sha256": "8059409d8843e7dea05e52dfd8f5c546f880234bd25453f36b4000f55c93be5c"
+      "bytes": 609,
+      "sha256": "dae266759f46a85110014d340613512114ca1a797b529044557195f14dbb0818"
     },
     {
       "path": "browser-proof/home-desktop.svg",
       "category": "browser-capture",
       "required": true,
       "exists": true,
-      "bytes": 614,
-      "sha256": "031eec1d954a9edd0092f30baf72928ae15b4df55749fcc9114994ee0e8bdbab"
+      "bytes": 610,
+      "sha256": "93246c90a8af2f59ce6867c11f39bfef5d82dece318717b5630d4ff513945efa"
     },
     {
       "path": "browser-proof/pricing-desktop.svg",
       "category": "browser-capture",
       "required": true,
       "exists": true,
-      "bytes": 617,
-      "sha256": "bd9786a02e3802f7919ef7a81017b19e49ea7a53a94603763ebc8c2a3acdbec2"
+      "bytes": 613,
+      "sha256": "dca41fc192bf98bb03ab6b92fb4c835baf745b66da0a8b9b2add94b6dc76e81b"
     },
     {
       "path": "builder-browser-proof.json",
       "category": "evidence",
       "required": true,
       "exists": true,
-      "bytes": 9056,
-      "sha256": "f855d634a1ed2f4fe9c5f0e5978a612885eaa70d816309ce2b9d9807718a0d69"
+      "bytes": 8968,
+      "sha256": "61bde06f37da987dbb509006f4306255d32a580bdee9a9e8e2eebef581b2cc05"
     },
     {
       "path": "builder-evidence-seal.json",
       "category": "evidence",
       "required": true,
       "exists": true,
-      "bytes": 6196,
-      "sha256": "2d89fb6b27b7c84d769e8f2fbf3def052809ab3dc609f97ed57ee60351f2b038"
+      "bytes": 6179,
+      "sha256": "5f67bf5769679a9ec8c1fcf062fbb2fe4747ece6a05efb2e7c0a06c83082a358"
     },
     {
       "path": "builder-launch-gate.json",
       "category": "evidence",
       "required": true,
       "exists": true,
-      "bytes": 11524,
-      "sha256": "13958399dffc34e66844b612f4479d863b2bf2cbde08e4711e1f1d8040303d79"
+      "bytes": 11507,
+      "sha256": "a4a0b36c76a9f43986e4d2a7f85c0d71133575f8bd6fdcce3dcc127b19043a30"
     },
     {
       "path": "builder-manifest.json",
       "category": "manifest",
       "required": true,
       "exists": true,
-      "bytes": 2659,
-      "sha256": "530b55c6c684dec2ae444b086d936a5c22114965882eb8bca41b25afa16a3546"
+      "bytes": 2638,
+      "sha256": "0ba9347cbce051f6eebf8eb6dfdf846dd16231a5e62be6b6cdd0fd268a97db8c"
     },
     {
       "path": "builder-readiness.json",
       "category": "evidence",
       "required": true,
       "exists": true,
-      "bytes": 8452,
-      "sha256": "5e3c19d0de4d5c5ce9d522c7d732fb32ca9ee5e6cee9c3497e59bd141e27f0c7"
+      "bytes": 8435,
+      "sha256": "5307c3e3ba31db7f1f723527ef501870d5f0ceaacd2bd2e5250f6d831a2618f4"
     },
     {
       "path": "builder-visual-proof.json",
       "category": "evidence",
       "required": true,
       "exists": true,
-      "bytes": 5567,
-      "sha256": "4f953ac581936333d501e1ffb7e6f918827e7425e49be73e57122020bdb29162"
+      "bytes": 5550,
+      "sha256": "80efbf594f9960d8e214dbfd827877792e5c0f3adc07bd679da8e7cfc8a971f2"
     },
     {
       "path": "contact.html",
       "category": "page",
       "required": true,
       "exists": true,
-      "bytes": 1570,
-      "sha256": "af367e8b201ae32422938124b70d75eecad1aef2588a920b5e99dc939bd2d4ea"
+      "bytes": 4611,
+      "sha256": "6d4a7ec34f7ed2fec6b94494259aecea97a030c98b01b9de669c71af8560438d"
     },
     {
       "path": "contact/index.html",
       "category": "route-alias",
       "required": true,
       "exists": true,
-      "bytes": 1570,
-      "sha256": "af367e8b201ae32422938124b70d75eecad1aef2588a920b5e99dc939bd2d4ea"
+      "bytes": 4611,
+      "sha256": "6d4a7ec34f7ed2fec6b94494259aecea97a030c98b01b9de669c71af8560438d"
     },
     {
       "path": "faq.html",
       "category": "page",
       "required": true,
       "exists": true,
-      "bytes": 1576,
-      "sha256": "c5cb0ab19b294879b5a7f8f231cd8a5e98b8f8d5a33559886ea644ea873d2b33"
+      "bytes": 4605,
+      "sha256": "14b092f1fef3522bcf670d5baf0e0975c223b5be687c4bbd5a4b679f3d7d6076"
     },
     {
       "path": "faq/index.html",
       "category": "route-alias",
       "required": true,
       "exists": true,
-      "bytes": 1576,
-      "sha256": "c5cb0ab19b294879b5a7f8f231cd8a5e98b8f8d5a33559886ea644ea873d2b33"
+      "bytes": 4605,
+      "sha256": "14b092f1fef3522bcf670d5baf0e0975c223b5be687c4bbd5a4b679f3d7d6076"
     },
     {
       "path": "home.html",
       "category": "page",
       "required": true,
       "exists": true,
-      "bytes": 1863,
-      "sha256": "fc9a47577678b0b4287606b52811589b5acf2bfdaaf848d089745122c7675a22"
+      "bytes": 4987,
+      "sha256": "c974b0dd08edb49fd18b3dd5e773b6de8a44aac60de6bb1186ae8c350be4e04a"
     },
     {
       "path": "index.html",
       "category": "route-alias",
       "required": true,
       "exists": true,
-      "bytes": 1863,
-      "sha256": "fc9a47577678b0b4287606b52811589b5acf2bfdaaf848d089745122c7675a22"
+      "bytes": 4987,
+      "sha256": "c974b0dd08edb49fd18b3dd5e773b6de8a44aac60de6bb1186ae8c350be4e04a"
     },
     {
       "path": "manifest.json",
       "category": "project-data",
       "required": true,
       "exists": true,
-      "bytes": 3925,
-      "sha256": "739a259e7ab645c0ae66261340a3e52f41022a9271e537fa076e6d8f1eb617bd"
+      "bytes": 3777,
+      "sha256": "fae4da64550455c10ca442f99c0ade7eb9156b27f259346bccbb971369423231"
     },
     {
       "path": "pricing.html",
       "category": "page",
       "required": true,
       "exists": true,
-      "bytes": 1830,
-      "sha256": "9ddfdd632af0dbe8bb17836d844e4de79b6319b2a27218148f9786aaee20f30a"
+      "bytes": 4900,
+      "sha256": "2b91ef02716013c2aff2614f65f723aa1a4ae435031a067f4f63854deed828e2"
     },
     {
       "path": "pricing/index.html",
       "category": "route-alias",
       "required": true,
       "exists": true,
-      "bytes": 1830,
-      "sha256": "9ddfdd632af0dbe8bb17836d844e4de79b6319b2a27218148f9786aaee20f30a"
+      "bytes": 4900,
+      "sha256": "2b91ef02716013c2aff2614f65f723aa1a4ae435031a067f4f63854deed828e2"
     },
     {
       "path": "robots.txt",
@@ -192,5 +192,5 @@
   "issues": [],
   "blockingIssueCount": 0,
   "warningIssueCount": 0,
-  "auditHash": "d8f9ae0f19657be1e9c5089fcec7c94a0be6c0fb000238c4394e9ac96561fee0"
+  "auditHash": "feff5550a06afd013728100630884cbd18c152546fdd41fc6f0662b6f4945d7a"
 }

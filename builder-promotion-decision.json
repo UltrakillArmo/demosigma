@@ -1,10 +1,10 @@
 {
-  "artifactId": "artifact-moiur67p-2-76c6",
-  "workspaceId": "ws-inherited-intent-team",
-  "projectId": "new-venture-1777394424250",
+  "artifactId": "artifact-moj0xprb-0-ca1b",
+  "workspaceId": "ws-nova",
+  "projectId": "new-venture-1777404774421",
   "connector": "vercel",
   "targetEnvironment": "preview",
-  "generatedAt": "2026-04-28T16:40:33.602Z",
+  "generatedAt": "2026-04-28T19:33:36.568Z",
   "status": "attention",
   "score": 78,
   "promotionMode": "manual-only",
@@ -15,7 +15,7 @@
   "recommendedAction": "Run site-pack:readiness and fix blocking checks before promotion.",
   "promotionDecisionFile": "builder-promotion-decision.json",
   "manifestFile": "builder-manifest.json",
-  "manifestHash": "530b55c6c684dec2ae444b086d936a5c22114965882eb8bca41b25afa16a3546",
+  "manifestHash": "0ba9347cbce051f6eebf8eb6dfdf846dd16231a5e62be6b6cdd0fd268a97db8c",
   "readinessFile": "builder-readiness.json",
   "readinessStatus": "attention",
   "readinessScore": 96,
@@ -32,7 +32,7 @@
   "evidenceSealFile": "builder-evidence-seal.json",
   "evidenceSealStatus": "ready",
   "evidenceSealScore": 100,
-  "evidenceSealRootHash": "468b75fbbc17650f34756f06839f93c42e53cccab92fd5f8c10ce6baf69ead67",
+  "evidenceSealRootHash": "d39082dded1a0198fc11d0e630a8287a881373b628d515f41446d60e7feef00f",
   "evidenceSealVerificationStatus": "verified",
   "approvalRequired": false,
   "approved": false,
@@ -78,7 +78,7 @@
       "action": "Run site-pack:browser-proof with desktop and mobile viewports before production promotion.",
       "evidence": [
         "builder-browser-proof.json",
-        "2bcddb28360d975621a44a3e88755f3fccedd72b6a7b9efb94d442662c9df60e"
+        "13043d92d1a47afe27fa33ff5182e40c9d1865b3b56002dd064d2f7b2a0914fc"
       ]
     },
     {
@@ -99,7 +99,7 @@
       "action": "Keep the evidence seal root hash with the handoff.",
       "evidence": [
         "builder-evidence-seal.json",
-        "468b75fbbc17650f34756f06839f93c42e53cccab92fd5f8c10ce6baf69ead67"
+        "d39082dded1a0198fc11d0e630a8287a881373b628d515f41446d60e7feef00f"
       ]
     },
     {
@@ -129,5 +129,5 @@
       "evidence": []
     }
   ],
-  "auditHash": "13409f98ffb818ae43cd5a6f29ae664847fffb9fcaf1721178c1fb803c678cee"
+  "auditHash": "e194bd1a6da290d4643fc12220805f14bcc8d87f796565e3af966632043911a7"
 }
