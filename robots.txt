@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://ultrakillarmo.github.io/demosigma/sitemap.xml

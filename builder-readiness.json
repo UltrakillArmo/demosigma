@@ -1,15 +1,14 @@
 {
-  "artifactId": "artifact-moj0xprb-0-ca1b",
-  "workspaceId": "ws-nova",
-  "projectId": "new-venture-1777404774421",
-  "connector": "vercel",
-  "generatedAt": "2026-04-28T19:33:36.561Z",
-  "status": "attention",
-  "score": 96,
-  "summary": "Static site pack needs operator attention with score 96/100.",
-  "recommendedAction": "Set canonicalBaseUrl or productionDomain for production exports.",
+  "artifactId": "artifact-moj2oprg-0-5588",
+  "projectId": "nova-with-pricing-faq-contact-automation-analytics-and-team-collaboration-1777407755884",
+  "connector": "github-pages",
+  "generatedAt": "2026-04-28T20:22:35.914Z",
+  "status": "ready",
+  "score": 100,
+  "summary": "Static site pack is ready with score 100/100.",
+  "recommendedAction": "Site pack is ready for static host handoff.",
   "manifestFile": "builder-manifest.json",
-  "manifestHash": "0ba9347cbce051f6eebf8eb6dfdf846dd16231a5e62be6b6cdd0fd268a97db8c",
+  "manifestHash": "9733df9237a775f4bdb60aba6b6408b686a36847f50d3ea8449b49323ad328c1",
   "readinessFile": "builder-readiness.json",
   "visualProofFile": "builder-visual-proof.json",
   "visualProofStatus": "ready",
@@ -18,9 +17,9 @@
   "browserProofStatus": "attention",
   "browserProofScore": 64,
   "entryFile": "home.html",
-  "entryHash": "7ac531fd4e665f506691b011247bdbacf420b41f2492458fd4e2caff85802ef1",
-  "exportedFileCount": 17,
-  "checkedFileCount": 21,
+  "entryHash": "013a469cec97a080b30aac8a43b68ad1d964b055c1b6941ddce13b27570e2d77",
+  "exportedFileCount": 19,
+  "checkedFileCount": 23,
   "missingFiles": [],
   "routeCoverage": [
     {
@@ -65,101 +64,113 @@
     }
   ],
   "providerContract": {
-    "connector": "vercel",
+    "connector": "github-pages",
     "requiredFiles": [
-      "vercel.json"
+      ".nojekyll",
+      "404.html"
     ],
     "presentFiles": [
-      "vercel.json"
+      ".nojekyll",
+      "404.html"
     ],
     "missingFiles": [],
     "status": "pass"
   },
   "fileHashes": [
     {
+      "path": ".nojekyll",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "404.html",
+      "sha256": "51dd0ff28e7399b637d21a37f95e2b82dbfd6f6320924c1e2d9e12cf089b64df",
+      "bytes": 8950
+    },
+    {
       "path": "builder-browser-proof.json",
-      "sha256": "61bde06f37da987dbb509006f4306255d32a580bdee9a9e8e2eebef581b2cc05",
-      "bytes": 8968
+      "sha256": "884a189447672f58263f3ee3c542458b58f5fc93c8745b5558bd05abf9ffb5ce",
+      "bytes": 9500
     },
     {
       "path": "builder-evidence-seal.json",
-      "sha256": "d9d8e75f52825f2a071b8bde284146472d9f52fc99a077a6bb6460bc4eedb04f",
-      "bytes": 273
+      "sha256": "73dca33d18c9506138186e3980cf0314dba87b22ab0c1f5910888efb3307ea87",
+      "bytes": 335
     },
     {
       "path": "builder-launch-gate.json",
-      "sha256": "7b449834c13eb9a067da905e822dccf1c7db6d5383b7f1a1abf85d3c604e3a6f",
-      "bytes": 294
+      "sha256": "aaf317c5f082938ec04c43b60cabbbc957b9ae5649f0e764e0658fbd60d212dc",
+      "bytes": 356
     },
     {
       "path": "builder-manifest.json",
-      "sha256": "0ba9347cbce051f6eebf8eb6dfdf846dd16231a5e62be6b6cdd0fd268a97db8c",
-      "bytes": 2638
+      "sha256": "9733df9237a775f4bdb60aba6b6408b686a36847f50d3ea8449b49323ad328c1",
+      "bytes": 2858
     },
     {
       "path": "builder-promotion-decision.json",
-      "sha256": "3d04d118b7d9349db0ba64ade8924bc581ef7a3a65cc78ffc74751d962b83b45",
-      "bytes": 287
+      "sha256": "0c61f3a377ab88bed4b2c03ba7e53b44945520d875f78839069802c9bc0993a7",
+      "bytes": 349
     },
     {
       "path": "builder-visual-proof.json",
-      "sha256": "80efbf594f9960d8e214dbfd827877792e5c0f3adc07bd679da8e7cfc8a971f2",
-      "bytes": 5550
+      "sha256": "00bf33ae0258b57e0579504655273f82c95d118eea224bb5a1ed75461ec40832",
+      "bytes": 5869
     },
     {
       "path": "contact.html",
-      "sha256": "6d4a7ec34f7ed2fec6b94494259aecea97a030c98b01b9de669c71af8560438d",
-      "bytes": 4611
+      "sha256": "265299462f5f1539748cbf54752c472766c65ff3aaa75130a861195ddb4e3a15",
+      "bytes": 7504
     },
     {
       "path": "contact/index.html",
-      "sha256": "6d4a7ec34f7ed2fec6b94494259aecea97a030c98b01b9de669c71af8560438d",
-      "bytes": 4611
+      "sha256": "265299462f5f1539748cbf54752c472766c65ff3aaa75130a861195ddb4e3a15",
+      "bytes": 7504
     },
     {
       "path": "faq.html",
-      "sha256": "14b092f1fef3522bcf670d5baf0e0975c223b5be687c4bbd5a4b679f3d7d6076",
-      "bytes": 4605
+      "sha256": "523eb75b30b4cd8f9df43673cf42ae9f96926c7f6be29a225fb596e187e52d0b",
+      "bytes": 7910
     },
     {
       "path": "faq/index.html",
-      "sha256": "14b092f1fef3522bcf670d5baf0e0975c223b5be687c4bbd5a4b679f3d7d6076",
-      "bytes": 4605
+      "sha256": "523eb75b30b4cd8f9df43673cf42ae9f96926c7f6be29a225fb596e187e52d0b",
+      "bytes": 7910
     },
     {
       "path": "home.html",
-      "sha256": "c974b0dd08edb49fd18b3dd5e773b6de8a44aac60de6bb1186ae8c350be4e04a",
-      "bytes": 4987
+      "sha256": "51dd0ff28e7399b637d21a37f95e2b82dbfd6f6320924c1e2d9e12cf089b64df",
+      "bytes": 8950
     },
     {
       "path": "index.html",
-      "sha256": "c974b0dd08edb49fd18b3dd5e773b6de8a44aac60de6bb1186ae8c350be4e04a",
-      "bytes": 4987
+      "sha256": "51dd0ff28e7399b637d21a37f95e2b82dbfd6f6320924c1e2d9e12cf089b64df",
+      "bytes": 8950
     },
     {
       "path": "manifest.json",
-      "sha256": "fae4da64550455c10ca442f99c0ade7eb9156b27f259346bccbb971369423231",
-      "bytes": 3777
+      "sha256": "080aee4cdb16008032bab8b49c3fedb93db931331a82d0bea0dffb91180aa46f",
+      "bytes": 4485
     },
     {
       "path": "pricing.html",
-      "sha256": "2b91ef02716013c2aff2614f65f723aa1a4ae435031a067f4f63854deed828e2",
-      "bytes": 4900
+      "sha256": "c6511ad10dea2e2a3e0daf2afad273b8cae34e1633fd9a0369e22fdde07cd690",
+      "bytes": 9549
     },
     {
       "path": "pricing/index.html",
-      "sha256": "2b91ef02716013c2aff2614f65f723aa1a4ae435031a067f4f63854deed828e2",
-      "bytes": 4900
+      "sha256": "c6511ad10dea2e2a3e0daf2afad273b8cae34e1633fd9a0369e22fdde07cd690",
+      "bytes": 9549
     },
     {
       "path": "robots.txt",
-      "sha256": "44f3f8eafdf064cf69acb05f23ee4dfc9ab5b3d67d81c64246bc29f7e438789a",
-      "bytes": 22
+      "sha256": "961f3717b6dfcbbe08fc9ac35affdb1d933c7cf25c8480ef924ec3a97b489ec6",
+      "bytes": 85
     },
     {
-      "path": "vercel.json",
-      "sha256": "4c5c60f8145d5400df9fdc38158609c3c2eb4577656d41e0df62bca942d688d5",
-      "bytes": 3559
+      "path": "sitemap.xml",
+      "sha256": "c47ad6cb0ad867a2792600a2b0c906a45bbe87850f46c8b617a70a51b19beb45",
+      "bytes": 618
     }
   ],
   "checks": [
@@ -177,17 +188,17 @@
       "checkId": "exported-files",
       "label": "Exported file inventory",
       "status": "pass",
-      "detail": "17 manifest-listed file(s) are present.",
+      "detail": "19 manifest-listed file(s) are present.",
       "action": "Use exportedFiles as the static host file contract.",
       "evidence": [
+        ".nojekyll",
+        "404.html",
         "builder-browser-proof.json",
         "builder-evidence-seal.json",
         "builder-launch-gate.json",
         "builder-manifest.json",
         "builder-promotion-decision.json",
-        "builder-visual-proof.json",
-        "contact.html",
-        "contact/index.html"
+        "builder-visual-proof.json"
       ]
     },
     {
@@ -225,19 +236,22 @@
     {
       "checkId": "canonical-links",
       "label": "Canonical URL coverage",
-      "status": "warn",
-      "detail": "No canonical base URL was provided for this export.",
-      "action": "Set canonicalBaseUrl or productionDomain for production exports.",
-      "evidence": []
+      "status": "pass",
+      "detail": "Canonical links are present for the configured base URL.",
+      "action": "Keep canonical links aligned with the production domain.",
+      "evidence": [
+        "https://ultrakillarmo.github.io/demosigma"
+      ]
     },
     {
       "checkId": "provider-contract",
       "label": "Static host provider contract",
       "status": "pass",
-      "detail": "vercel provider config files are present.",
+      "detail": "github-pages provider config files are present.",
       "action": "Keep provider config files in the published root.",
       "evidence": [
-        "vercel.json"
+        ".nojekyll",
+        "404.html"
       ]
     },
     {
@@ -247,7 +261,8 @@
       "detail": "robots.txt and required sitemap artifacts are present.",
       "action": "Keep robots.txt and sitemap.xml with canonical production exports.",
       "evidence": [
-        "robots.txt"
+        "robots.txt",
+        "sitemap.xml"
       ]
     },
     {

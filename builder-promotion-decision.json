@@ -1,24 +1,23 @@
 {
-  "artifactId": "artifact-moj0xprb-0-ca1b",
-  "workspaceId": "ws-nova",
-  "projectId": "new-venture-1777404774421",
-  "connector": "vercel",
+  "artifactId": "artifact-moj2oprg-0-5588",
+  "projectId": "nova-with-pricing-faq-contact-automation-analytics-and-team-collaboration-1777407755884",
+  "connector": "github-pages",
   "targetEnvironment": "preview",
-  "generatedAt": "2026-04-28T19:33:36.568Z",
+  "generatedAt": "2026-04-28T20:22:35.926Z",
   "status": "attention",
-  "score": 78,
+  "score": 89,
   "promotionMode": "manual-only",
   "autoPublishAllowed": false,
   "manualPublishAllowed": true,
   "productionPublishAllowed": false,
-  "summary": "Promotion decision requires operator attention for preview in manual-only mode with score 78/100 and 4 warning(s).",
-  "recommendedAction": "Run site-pack:readiness and fix blocking checks before promotion.",
+  "summary": "Promotion decision requires operator attention for preview in manual-only mode with score 89/100 and 2 warning(s).",
+  "recommendedAction": "Run site-pack:browser-proof with desktop and mobile viewports before production promotion.",
   "promotionDecisionFile": "builder-promotion-decision.json",
   "manifestFile": "builder-manifest.json",
-  "manifestHash": "0ba9347cbce051f6eebf8eb6dfdf846dd16231a5e62be6b6cdd0fd268a97db8c",
+  "manifestHash": "9733df9237a775f4bdb60aba6b6408b686a36847f50d3ea8449b49323ad328c1",
   "readinessFile": "builder-readiness.json",
-  "readinessStatus": "attention",
-  "readinessScore": 96,
+  "readinessStatus": "ready",
+  "readinessScore": 100,
   "visualProofFile": "builder-visual-proof.json",
   "visualProofStatus": "ready",
   "visualProofScore": 100,
@@ -28,17 +27,17 @@
   "browserProofCaptureCount": 4,
   "launchGateFile": "builder-launch-gate.json",
   "launchGateStatus": "attention",
-  "launchGateScore": 86,
+  "launchGateScore": 96,
   "evidenceSealFile": "builder-evidence-seal.json",
   "evidenceSealStatus": "ready",
   "evidenceSealScore": 100,
-  "evidenceSealRootHash": "d39082dded1a0198fc11d0e630a8287a881373b628d515f41446d60e7feef00f",
+  "evidenceSealRootHash": "2a443b8b20cee5f47de42f13f83a1a957031be8f8131a01d66ad356915a8eb78",
   "evidenceSealVerificationStatus": "verified",
   "approvalRequired": false,
   "approved": false,
   "requiredApprovals": [],
   "blockingIssueCount": 0,
-  "warningIssueCount": 4,
+  "warningIssueCount": 2,
   "checks": [
     {
       "checkId": "manifest-authority",
@@ -53,9 +52,9 @@
     {
       "checkId": "static-readiness",
       "label": "Static readiness",
-      "status": "warn",
-      "detail": "Static site pack needs operator attention with score 96/100.",
-      "action": "Run site-pack:readiness and fix blocking checks before promotion.",
+      "status": "pass",
+      "detail": "Static site pack is ready with score 100/100.",
+      "action": "Keep readiness evidence with the package.",
       "evidence": [
         "builder-readiness.json"
       ]
@@ -78,14 +77,14 @@
       "action": "Run site-pack:browser-proof with desktop and mobile viewports before production promotion.",
       "evidence": [
         "builder-browser-proof.json",
-        "13043d92d1a47afe27fa33ff5182e40c9d1865b3b56002dd064d2f7b2a0914fc"
+        "b8ddea70e8e840a4aa50ad870a43e11b83895086ad9a92b6543762e5a605ef30"
       ]
     },
     {
       "checkId": "launch-gate",
       "label": "Launch gate",
       "status": "warn",
-      "detail": "Launch gate needs operator attention for preview with score 86/100 and 3 warning(s).",
+      "detail": "Launch gate needs operator attention for preview with score 96/100 and 1 warning(s).",
       "action": "Run site-pack:launch-gate and resolve failing gates before promotion.",
       "evidence": [
         "builder-launch-gate.json"
@@ -95,30 +94,32 @@
       "checkId": "evidence-seal",
       "label": "Evidence seal",
       "status": "pass",
-      "detail": "Evidence seal is verified with 20 file fingerprint(s) and score 100/100.",
+      "detail": "Evidence seal is verified with 22 file fingerprint(s) and score 100/100.",
       "action": "Keep the evidence seal root hash with the handoff.",
       "evidence": [
         "builder-evidence-seal.json",
-        "d39082dded1a0198fc11d0e630a8287a881373b628d515f41446d60e7feef00f"
+        "2a443b8b20cee5f47de42f13f83a1a957031be8f8131a01d66ad356915a8eb78"
       ]
     },
     {
       "checkId": "provider-production-safety",
       "label": "Provider production safety",
       "status": "pass",
-      "detail": "vercel connector is acceptable for preview.",
+      "detail": "github-pages connector is acceptable for preview.",
       "action": "Keep provider connector aligned with the publish target.",
       "evidence": [
-        "vercel"
+        "github-pages"
       ]
     },
     {
       "checkId": "canonical-production-url",
       "label": "Canonical production URL",
-      "status": "warn",
-      "detail": "No canonical base URL is configured.",
-      "action": "Set canonicalBaseUrl before production promotion.",
-      "evidence": []
+      "status": "pass",
+      "detail": "Canonical base URL is https://ultrakillarmo.github.io/demosigma.",
+      "action": "Keep canonical URL aligned with the production target.",
+      "evidence": [
+        "https://ultrakillarmo.github.io/demosigma"
+      ]
     },
     {
       "checkId": "operator-production-signoff",
@@ -129,5 +130,5 @@
       "evidence": []
     }
   ],
-  "auditHash": "e194bd1a6da290d4643fc12220805f14bcc8d87f796565e3af966632043911a7"
+  "auditHash": "460068f35995c4f307d38253e50dc8ee483371a38e55f796fe95d9e6de04d351"
 }

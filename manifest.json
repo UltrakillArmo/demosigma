@@ -1,11 +1,11 @@
 {
-  "projectId": "new-venture-1777404774421",
-  "name": "APF Themed Demo",
-  "createdAt": "2026-04-28T19:32:54.421Z",
-  "updatedAt": "2026-04-28T19:32:54.421Z",
+  "projectId": "nova-with-pricing-faq-contact-automation-analytics-and-team-collaboration-1777407755884",
+  "name": "Nova with pricing faq contact automation analytics and team collaboration Website",
+  "createdAt": "2026-04-28T20:22:35.883Z",
+  "updatedAt": "2026-04-28T20:22:35.883Z",
   "brief": {
-    "rawIdea": "Premium AI productivity SaaS for technical founders. Pages: home, pricing, faq, contact. Tone: technical.",
-    "companyName": "New Venture",
+    "rawIdea": "Build a premium AI SaaS website for Nova with pricing faq contact automation analytics and team collaboration.",
+    "companyName": "Nova with pricing faq contact automation analytics and team collaboration",
     "industry": "B2B SaaS",
     "audience": "Growth-stage buyers",
     "primaryGoal": "Drive demo requests",
@@ -18,7 +18,10 @@
       "contact"
     ],
     "features": [
-      "ai assistance"
+      "automation workflows",
+      "analytics dashboard",
+      "ai assistance",
+      "team collaboration"
     ]
   },
   "appearance": {
@@ -37,19 +40,19 @@
     {
       "slug": "home",
       "title": "Home",
-      "description": "New Venture homepage",
+      "description": "Nova with pricing faq contact automation analytics and team collaboration homepage",
       "sections": [
         {
           "id": "hero-1",
           "kind": "hero",
-          "title": "New Venture for Growth-stage buyers",
+          "title": "Nova with pricing faq contact automation analytics and team collaboration for Growth-stage buyers",
           "body": "B2B SaaS website focused on drive demo requests with a premium tone."
         },
         {
           "id": "features-1",
           "kind": "features",
           "title": "Core capabilities",
-          "body": "ai assistance"
+          "body": "automation workflows • analytics dashboard • ai assistance • team collaboration"
         },
         {
           "id": "proof-1",
@@ -68,13 +71,13 @@
     {
       "slug": "pricing",
       "title": "Pricing",
-      "description": "Pricing page for New Venture",
+      "description": "Pricing page for Nova with pricing faq contact automation analytics and team collaboration",
       "sections": [
         {
           "id": "pricing-1",
           "kind": "pricing",
           "title": "Simple pricing for serious buyers",
-          "body": "Three clear plans for growth-stage buyers with setup around ai assistance."
+          "body": "Three clear plans for growth-stage buyers with setup around automation workflows • analytics dashboard • ai assistance • team collaboration."
         },
         {
           "id": "pricing-proof-1",
@@ -93,7 +96,7 @@
     {
       "slug": "faq",
       "title": "Faq",
-      "description": "Faq page for New Venture",
+      "description": "Faq page for Nova with pricing faq contact automation analytics and team collaboration",
       "sections": [
         {
           "id": "faq-1",
@@ -112,7 +115,7 @@
     {
       "slug": "contact",
       "title": "Contact",
-      "description": "Contact page for New Venture",
+      "description": "Contact page for Nova with pricing faq contact automation analytics and team collaboration",
       "sections": [
         {
           "id": "contact-1",
@@ -131,6 +134,5 @@
   ],
   "activity": [
     "project created from idea"
-  ],
-  "workspaceId": "ws-nova"
+  ]
 }

@@ -1,19 +1,18 @@
 {
-  "artifactId": "artifact-moj0xprb-0-ca1b",
-  "workspaceId": "ws-nova",
-  "projectId": "new-venture-1777404774421",
-  "connector": "vercel",
-  "generatedAt": "2026-04-28T19:33:36.554Z",
+  "artifactId": "artifact-moj2oprg-0-5588",
+  "projectId": "nova-with-pricing-faq-contact-automation-analytics-and-team-collaboration-1777407755884",
+  "connector": "github-pages",
+  "generatedAt": "2026-04-28T20:22:35.900Z",
   "status": "ready",
   "score": 100,
   "summary": "Static visual proof is ready with score 100/100 across 4 page(s).",
   "recommendedAction": "Static visual proof is ready for operator review and publish handoff.",
   "manifestFile": "builder-manifest.json",
-  "manifestHash": "0ba9347cbce051f6eebf8eb6dfdf846dd16231a5e62be6b6cdd0fd268a97db8c",
+  "manifestHash": "9733df9237a775f4bdb60aba6b6408b686a36847f50d3ea8449b49323ad328c1",
   "visualProofFile": "builder-visual-proof.json",
   "pageCount": 4,
-  "htmlFileCount": 8,
-  "checkedFileCount": 15,
+  "htmlFileCount": 9,
+  "checkedFileCount": 17,
   "blockingIssueCount": 0,
   "warningIssueCount": 0,
   "pageReports": [
@@ -27,17 +26,17 @@
       "routePath": "/",
       "status": "ready",
       "score": 100,
-      "htmlBytes": 4987,
-      "sectionCount": 5,
-      "headingCount": 5,
-      "navLinkCount": 5,
+      "htmlBytes": 8950,
+      "sectionCount": 4,
+      "headingCount": 8,
+      "navLinkCount": 6,
       "internalLinkCount": 4,
       "unresolvedInternalLinks": [],
       "missingAltCount": 0,
       "unlabeledControlCount": 0,
       "hasViewportMeta": true,
       "hasDescriptionMeta": true,
-      "hasCanonicalLink": false,
+      "hasCanonicalLink": true,
       "hasBuilderMarkers": true,
       "hasLocalPathLeak": false,
       "issues": []
@@ -52,17 +51,17 @@
       "routePath": "/pricing/",
       "status": "ready",
       "score": 100,
-      "htmlBytes": 4900,
+      "htmlBytes": 9549,
       "sectionCount": 4,
-      "headingCount": 4,
-      "navLinkCount": 5,
+      "headingCount": 7,
+      "navLinkCount": 9,
       "internalLinkCount": 4,
       "unresolvedInternalLinks": [],
       "missingAltCount": 0,
       "unlabeledControlCount": 0,
       "hasViewportMeta": true,
       "hasDescriptionMeta": true,
-      "hasCanonicalLink": false,
+      "hasCanonicalLink": true,
       "hasBuilderMarkers": true,
       "hasLocalPathLeak": false,
       "issues": []
@@ -77,17 +76,17 @@
       "routePath": "/faq/",
       "status": "ready",
       "score": 100,
-      "htmlBytes": 4605,
+      "htmlBytes": 7910,
       "sectionCount": 3,
       "headingCount": 3,
-      "navLinkCount": 5,
+      "navLinkCount": 6,
       "internalLinkCount": 4,
       "unresolvedInternalLinks": [],
       "missingAltCount": 0,
       "unlabeledControlCount": 0,
       "hasViewportMeta": true,
       "hasDescriptionMeta": true,
-      "hasCanonicalLink": false,
+      "hasCanonicalLink": true,
       "hasBuilderMarkers": true,
       "hasLocalPathLeak": false,
       "issues": []
@@ -102,17 +101,17 @@
       "routePath": "/contact/",
       "status": "ready",
       "score": 100,
-      "htmlBytes": 4611,
+      "htmlBytes": 7504,
       "sectionCount": 3,
       "headingCount": 3,
-      "navLinkCount": 5,
+      "navLinkCount": 6,
       "internalLinkCount": 4,
       "unresolvedInternalLinks": [],
       "missingAltCount": 0,
       "unlabeledControlCount": 0,
       "hasViewportMeta": true,
       "hasDescriptionMeta": true,
-      "hasCanonicalLink": false,
+      "hasCanonicalLink": true,
       "hasBuilderMarkers": true,
       "hasLocalPathLeak": false,
       "issues": []
@@ -121,79 +120,89 @@
   "issues": [],
   "fileHashes": [
     {
+      "path": ".nojekyll",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "404.html",
+      "sha256": "51dd0ff28e7399b637d21a37f95e2b82dbfd6f6320924c1e2d9e12cf089b64df",
+      "bytes": 8950
+    },
+    {
       "path": "builder-evidence-seal.json",
-      "sha256": "d9d8e75f52825f2a071b8bde284146472d9f52fc99a077a6bb6460bc4eedb04f",
-      "bytes": 273
+      "sha256": "73dca33d18c9506138186e3980cf0314dba87b22ab0c1f5910888efb3307ea87",
+      "bytes": 335
     },
     {
       "path": "builder-launch-gate.json",
-      "sha256": "7b449834c13eb9a067da905e822dccf1c7db6d5383b7f1a1abf85d3c604e3a6f",
-      "bytes": 294
+      "sha256": "aaf317c5f082938ec04c43b60cabbbc957b9ae5649f0e764e0658fbd60d212dc",
+      "bytes": 356
     },
     {
       "path": "builder-manifest.json",
-      "sha256": "0ba9347cbce051f6eebf8eb6dfdf846dd16231a5e62be6b6cdd0fd268a97db8c",
-      "bytes": 2638
+      "sha256": "9733df9237a775f4bdb60aba6b6408b686a36847f50d3ea8449b49323ad328c1",
+      "bytes": 2858
     },
     {
       "path": "builder-promotion-decision.json",
-      "sha256": "3d04d118b7d9349db0ba64ade8924bc581ef7a3a65cc78ffc74751d962b83b45",
-      "bytes": 287
+      "sha256": "0c61f3a377ab88bed4b2c03ba7e53b44945520d875f78839069802c9bc0993a7",
+      "bytes": 349
     },
     {
       "path": "contact.html",
-      "sha256": "6d4a7ec34f7ed2fec6b94494259aecea97a030c98b01b9de669c71af8560438d",
-      "bytes": 4611
+      "sha256": "265299462f5f1539748cbf54752c472766c65ff3aaa75130a861195ddb4e3a15",
+      "bytes": 7504
     },
     {
       "path": "contact/index.html",
-      "sha256": "6d4a7ec34f7ed2fec6b94494259aecea97a030c98b01b9de669c71af8560438d",
-      "bytes": 4611
+      "sha256": "265299462f5f1539748cbf54752c472766c65ff3aaa75130a861195ddb4e3a15",
+      "bytes": 7504
     },
     {
       "path": "faq.html",
-      "sha256": "14b092f1fef3522bcf670d5baf0e0975c223b5be687c4bbd5a4b679f3d7d6076",
-      "bytes": 4605
+      "sha256": "523eb75b30b4cd8f9df43673cf42ae9f96926c7f6be29a225fb596e187e52d0b",
+      "bytes": 7910
     },
     {
       "path": "faq/index.html",
-      "sha256": "14b092f1fef3522bcf670d5baf0e0975c223b5be687c4bbd5a4b679f3d7d6076",
-      "bytes": 4605
+      "sha256": "523eb75b30b4cd8f9df43673cf42ae9f96926c7f6be29a225fb596e187e52d0b",
+      "bytes": 7910
     },
     {
       "path": "home.html",
-      "sha256": "c974b0dd08edb49fd18b3dd5e773b6de8a44aac60de6bb1186ae8c350be4e04a",
-      "bytes": 4987
+      "sha256": "51dd0ff28e7399b637d21a37f95e2b82dbfd6f6320924c1e2d9e12cf089b64df",
+      "bytes": 8950
     },
     {
       "path": "index.html",
-      "sha256": "c974b0dd08edb49fd18b3dd5e773b6de8a44aac60de6bb1186ae8c350be4e04a",
-      "bytes": 4987
+      "sha256": "51dd0ff28e7399b637d21a37f95e2b82dbfd6f6320924c1e2d9e12cf089b64df",
+      "bytes": 8950
     },
     {
       "path": "manifest.json",
-      "sha256": "fae4da64550455c10ca442f99c0ade7eb9156b27f259346bccbb971369423231",
-      "bytes": 3777
+      "sha256": "080aee4cdb16008032bab8b49c3fedb93db931331a82d0bea0dffb91180aa46f",
+      "bytes": 4485
     },
     {
       "path": "pricing.html",
-      "sha256": "2b91ef02716013c2aff2614f65f723aa1a4ae435031a067f4f63854deed828e2",
-      "bytes": 4900
+      "sha256": "c6511ad10dea2e2a3e0daf2afad273b8cae34e1633fd9a0369e22fdde07cd690",
+      "bytes": 9549
     },
     {
       "path": "pricing/index.html",
-      "sha256": "2b91ef02716013c2aff2614f65f723aa1a4ae435031a067f4f63854deed828e2",
-      "bytes": 4900
+      "sha256": "c6511ad10dea2e2a3e0daf2afad273b8cae34e1633fd9a0369e22fdde07cd690",
+      "bytes": 9549
     },
     {
       "path": "robots.txt",
-      "sha256": "44f3f8eafdf064cf69acb05f23ee4dfc9ab5b3d67d81c64246bc29f7e438789a",
-      "bytes": 22
+      "sha256": "961f3717b6dfcbbe08fc9ac35affdb1d933c7cf25c8480ef924ec3a97b489ec6",
+      "bytes": 85
     },
     {
-      "path": "vercel.json",
-      "sha256": "4c5c60f8145d5400df9fdc38158609c3c2eb4577656d41e0df62bca942d688d5",
-      "bytes": 3559
+      "path": "sitemap.xml",
+      "sha256": "c47ad6cb0ad867a2792600a2b0c906a45bbe87850f46c8b617a70a51b19beb45",
+      "bytes": 618
     }
   ]
 }

@@ -1,196 +1,211 @@
 {
-  "artifactId": "artifact-moj0xprb-0-ca1b",
-  "workspaceId": "ws-nova",
-  "projectId": "new-venture-1777404774421",
-  "connector": "vercel",
+  "artifactId": "artifact-moj2oprg-0-5588",
+  "projectId": "nova-with-pricing-faq-contact-automation-analytics-and-team-collaboration-1777407755884",
+  "connector": "github-pages",
   "targetEnvironment": "preview",
-  "generatedAt": "2026-04-28T19:33:36.564Z",
+  "generatedAt": "2026-04-28T20:22:35.921Z",
   "status": "ready",
   "score": 100,
-  "summary": "Evidence seal is verified with 20 file fingerprint(s) and score 100/100.",
+  "summary": "Evidence seal is verified with 22 file fingerprint(s) and score 100/100.",
   "recommendedAction": "Keep builder-evidence-seal.json with the publish package and verify it before promotion.",
   "evidenceSealFile": "builder-evidence-seal.json",
   "manifestFile": "builder-manifest.json",
-  "manifestHash": "0ba9347cbce051f6eebf8eb6dfdf846dd16231a5e62be6b6cdd0fd268a97db8c",
+  "manifestHash": "9733df9237a775f4bdb60aba6b6408b686a36847f50d3ea8449b49323ad328c1",
   "sealVerificationStatus": "verified",
-  "previousRootHash": "d39082dded1a0198fc11d0e630a8287a881373b628d515f41446d60e7feef00f",
-  "rootHash": "d39082dded1a0198fc11d0e630a8287a881373b628d515f41446d60e7feef00f",
-  "fileCount": 20,
-  "requiredFileCount": 21,
+  "previousRootHash": "2a443b8b20cee5f47de42f13f83a1a957031be8f8131a01d66ad356915a8eb78",
+  "rootHash": "2a443b8b20cee5f47de42f13f83a1a957031be8f8131a01d66ad356915a8eb78",
+  "fileCount": 22,
+  "requiredFileCount": 23,
   "missingFiles": [],
   "unsafeFiles": [],
   "files": [
+    {
+      "path": ".nojekyll",
+      "category": "provider-config",
+      "required": true,
+      "exists": true,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "404.html",
+      "category": "provider-config",
+      "required": true,
+      "exists": true,
+      "bytes": 8950,
+      "sha256": "51dd0ff28e7399b637d21a37f95e2b82dbfd6f6320924c1e2d9e12cf089b64df"
+    },
     {
       "path": "browser-proof/contact-desktop.svg",
       "category": "browser-capture",
       "required": true,
       "exists": true,
-      "bytes": 613,
-      "sha256": "6deccc8b64a0e1a1ccdcbb979d8d7786a18c1c891fbf72361446707d6bc0c125"
+      "bytes": 679,
+      "sha256": "30f9b3594d13c7511f318d7f0d27fa00fcbaf6487d533eb14e3358d0040c2c50"
     },
     {
       "path": "browser-proof/faq-desktop.svg",
       "category": "browser-capture",
       "required": true,
       "exists": true,
-      "bytes": 609,
-      "sha256": "dae266759f46a85110014d340613512114ca1a797b529044557195f14dbb0818"
+      "bytes": 675,
+      "sha256": "5d148c3a08792582d0d7f3b3e1ef812d65b17f0b40534c9685e789df83ffa68d"
     },
     {
       "path": "browser-proof/home-desktop.svg",
       "category": "browser-capture",
       "required": true,
       "exists": true,
-      "bytes": 610,
-      "sha256": "93246c90a8af2f59ce6867c11f39bfef5d82dece318717b5630d4ff513945efa"
+      "bytes": 677,
+      "sha256": "719a14e4593eae894fbc97ad27f7e3763f79b9255c6b2a28bb6529b6af616b78"
     },
     {
       "path": "browser-proof/pricing-desktop.svg",
       "category": "browser-capture",
       "required": true,
       "exists": true,
-      "bytes": 613,
-      "sha256": "dca41fc192bf98bb03ab6b92fb4c835baf745b66da0a8b9b2add94b6dc76e81b"
+      "bytes": 680,
+      "sha256": "51eb6232981d8effacfef9ea1eae7818c7ba6ddde7b8b22406bb2520082c8a3d"
     },
     {
       "path": "builder-browser-proof.json",
       "category": "evidence",
       "required": true,
       "exists": true,
-      "bytes": 8968,
-      "sha256": "61bde06f37da987dbb509006f4306255d32a580bdee9a9e8e2eebef581b2cc05"
+      "bytes": 9500,
+      "sha256": "884a189447672f58263f3ee3c542458b58f5fc93c8745b5558bd05abf9ffb5ce"
     },
     {
       "path": "builder-evidence-seal.json",
       "category": "evidence",
       "required": true,
       "exists": true,
-      "bytes": 6179,
-      "sha256": "5f67bf5769679a9ec8c1fcf062fbb2fe4747ece6a05efb2e7c0a06c83082a358"
+      "bytes": 6656,
+      "sha256": "678ef3e88d2a31a66b80067ddc5e6988c2b72e921e29c29f94a9f95af5f42535"
     },
     {
       "path": "builder-launch-gate.json",
       "category": "evidence",
       "required": true,
       "exists": true,
-      "bytes": 11507,
-      "sha256": "a4a0b36c76a9f43986e4d2a7f85c0d71133575f8bd6fdcce3dcc127b19043a30"
+      "bytes": 12231,
+      "sha256": "86b11bf91ede9f649a653c72feb5431093b5918a40e9c82e8301ee2ac680faab"
     },
     {
       "path": "builder-manifest.json",
       "category": "manifest",
       "required": true,
       "exists": true,
-      "bytes": 2638,
-      "sha256": "0ba9347cbce051f6eebf8eb6dfdf846dd16231a5e62be6b6cdd0fd268a97db8c"
+      "bytes": 2858,
+      "sha256": "9733df9237a775f4bdb60aba6b6408b686a36847f50d3ea8449b49323ad328c1"
     },
     {
       "path": "builder-readiness.json",
       "category": "evidence",
       "required": true,
       "exists": true,
-      "bytes": 8435,
-      "sha256": "5307c3e3ba31db7f1f723527ef501870d5f0ceaacd2bd2e5250f6d831a2618f4"
+      "bytes": 8847,
+      "sha256": "a2d15a637363565abc2709df53db5896fd2d854b74e445992e3502019eb26d86"
     },
     {
       "path": "builder-visual-proof.json",
       "category": "evidence",
       "required": true,
       "exists": true,
-      "bytes": 5550,
-      "sha256": "80efbf594f9960d8e214dbfd827877792e5c0f3adc07bd679da8e7cfc8a971f2"
+      "bytes": 5869,
+      "sha256": "00bf33ae0258b57e0579504655273f82c95d118eea224bb5a1ed75461ec40832"
     },
     {
       "path": "contact.html",
       "category": "page",
       "required": true,
       "exists": true,
-      "bytes": 4611,
-      "sha256": "6d4a7ec34f7ed2fec6b94494259aecea97a030c98b01b9de669c71af8560438d"
+      "bytes": 7504,
+      "sha256": "265299462f5f1539748cbf54752c472766c65ff3aaa75130a861195ddb4e3a15"
     },
     {
       "path": "contact/index.html",
       "category": "route-alias",
       "required": true,
       "exists": true,
-      "bytes": 4611,
-      "sha256": "6d4a7ec34f7ed2fec6b94494259aecea97a030c98b01b9de669c71af8560438d"
+      "bytes": 7504,
+      "sha256": "265299462f5f1539748cbf54752c472766c65ff3aaa75130a861195ddb4e3a15"
     },
     {
       "path": "faq.html",
       "category": "page",
       "required": true,
       "exists": true,
-      "bytes": 4605,
-      "sha256": "14b092f1fef3522bcf670d5baf0e0975c223b5be687c4bbd5a4b679f3d7d6076"
+      "bytes": 7910,
+      "sha256": "523eb75b30b4cd8f9df43673cf42ae9f96926c7f6be29a225fb596e187e52d0b"
     },
     {
       "path": "faq/index.html",
       "category": "route-alias",
       "required": true,
       "exists": true,
-      "bytes": 4605,
-      "sha256": "14b092f1fef3522bcf670d5baf0e0975c223b5be687c4bbd5a4b679f3d7d6076"
+      "bytes": 7910,
+      "sha256": "523eb75b30b4cd8f9df43673cf42ae9f96926c7f6be29a225fb596e187e52d0b"
     },
     {
       "path": "home.html",
       "category": "page",
       "required": true,
       "exists": true,
-      "bytes": 4987,
-      "sha256": "c974b0dd08edb49fd18b3dd5e773b6de8a44aac60de6bb1186ae8c350be4e04a"
+      "bytes": 8950,
+      "sha256": "51dd0ff28e7399b637d21a37f95e2b82dbfd6f6320924c1e2d9e12cf089b64df"
     },
     {
       "path": "index.html",
       "category": "route-alias",
       "required": true,
       "exists": true,
-      "bytes": 4987,
-      "sha256": "c974b0dd08edb49fd18b3dd5e773b6de8a44aac60de6bb1186ae8c350be4e04a"
+      "bytes": 8950,
+      "sha256": "51dd0ff28e7399b637d21a37f95e2b82dbfd6f6320924c1e2d9e12cf089b64df"
     },
     {
       "path": "manifest.json",
       "category": "project-data",
       "required": true,
       "exists": true,
-      "bytes": 3777,
-      "sha256": "fae4da64550455c10ca442f99c0ade7eb9156b27f259346bccbb971369423231"
+      "bytes": 4485,
+      "sha256": "080aee4cdb16008032bab8b49c3fedb93db931331a82d0bea0dffb91180aa46f"
     },
     {
       "path": "pricing.html",
       "category": "page",
       "required": true,
       "exists": true,
-      "bytes": 4900,
-      "sha256": "2b91ef02716013c2aff2614f65f723aa1a4ae435031a067f4f63854deed828e2"
+      "bytes": 9549,
+      "sha256": "c6511ad10dea2e2a3e0daf2afad273b8cae34e1633fd9a0369e22fdde07cd690"
     },
     {
       "path": "pricing/index.html",
       "category": "route-alias",
       "required": true,
       "exists": true,
-      "bytes": 4900,
-      "sha256": "2b91ef02716013c2aff2614f65f723aa1a4ae435031a067f4f63854deed828e2"
+      "bytes": 9549,
+      "sha256": "c6511ad10dea2e2a3e0daf2afad273b8cae34e1633fd9a0369e22fdde07cd690"
     },
     {
       "path": "robots.txt",
       "category": "seo",
       "required": true,
       "exists": true,
-      "bytes": 22,
-      "sha256": "44f3f8eafdf064cf69acb05f23ee4dfc9ab5b3d67d81c64246bc29f7e438789a"
+      "bytes": 85,
+      "sha256": "961f3717b6dfcbbe08fc9ac35affdb1d933c7cf25c8480ef924ec3a97b489ec6"
     },
     {
-      "path": "vercel.json",
-      "category": "provider-config",
+      "path": "sitemap.xml",
+      "category": "seo",
       "required": true,
       "exists": true,
-      "bytes": 3559,
-      "sha256": "4c5c60f8145d5400df9fdc38158609c3c2eb4577656d41e0df62bca942d688d5"
+      "bytes": 618,
+      "sha256": "c47ad6cb0ad867a2792600a2b0c906a45bbe87850f46c8b617a70a51b19beb45"
     }
   ],
   "issues": [],
   "blockingIssueCount": 0,
   "warningIssueCount": 0,
-  "auditHash": "feff5550a06afd013728100630884cbd18c152546fdd41fc6f0662b6f4945d7a"
+  "auditHash": "48679d3df36f96e1fa8de06214ba263a918966136b59a1cf50aabfa9ba5ef2be"
 }
